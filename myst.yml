@@ -1,0 +1,37 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 1242181b-d75e-491e-bc5b-262ffd9807f9
+  title: Machine Learning Cursussen
+  authors: [Kevin Diependaele]
+  description: Cursus materiaal voor machine learning vakken
+  keywords: [machine learning]
+  # authors: [Kevin Diependaele]
+  github: https://github.com/ap-mdi-it/ml-courses
+  toc:
+    - file: book/overview.md
+    - title: Algemene instructies
+      children:
+      - file: book/ml_principles/hello_world.ipynb
+    - title: ML Principles
+      children:
+        - file: book/ml_principles/introductie.md
+        - file: book/ml_principles/modellen.ipynb
+    - title: Mathematical Foundations
+      children:
+        - file: book/math_foundations/introductie.md
+        - title: Les 1
+          children:
+            - file: book/math_foundations/les1/data.ipynb
+            - file: book/math_foundations/les1/patronen.ipynb
+site:
+  options:
+    favicon: img/AP_favicon.ico
+    logo: img/AP_logo_letters_rgb_sq.png
+    logo_url: https://www.ap.be
+  nav:
+    - title: ECTS
+      url: https://ects.ap.be
+  parts:
+    footer: |
+      kevin.diependaele@ap.be

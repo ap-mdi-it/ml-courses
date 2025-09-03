@@ -1,0 +1,12 @@
+_commit: v1.5.1
+_src_path: gh:superlinear-ai/substrate
+author_email: kevin.diependaele@ap.be
+author_name: Kevin Diependaele
+project_description: Machine learing course materials
+project_name: ML Courses
+project_type: package
+project_url: https://github.com/ap-mdi-it/ml-courses
+python_version: '3.10'
+typing: optional
+with_conventional_commits: false
+with_typer_cli: false
