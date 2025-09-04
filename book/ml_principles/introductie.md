@@ -10,18 +10,17 @@ over best practices en bijhorende state-of-the-art tools. Dit process zal je de 
 om in de praktijk, waar geen enkel ML probleem of data set hetzelfde is, in een beperkte tijd naar
 efficiente oplossingen op zoek te gaan.
 
-## ECTS Fiche
-### Korte omschrijving
+## Korte omschrijving
 Leer hoe machines patronen ontdekken in data en slimme voorspellingen kunnen maken.  
 In ML Principles duik je stap voor stap in hoe AI-systemen opgebouwd worden, hoe data voorbereid en geanalyseerd wordt, en hoe eenvoudige machine
 learning-modellen werken.  
 We leggen de nadruk op praktische vaardigheden zoals het omgaan met datasets, het kiezen van de juiste datarepresentaties en het begrijpen van de
 belangrijkste concepten achter AI.
-### OLR-Leerdoelen (lijst)
-#### Communiceren
+## OLR-Leerdoelen (lijst)
+### Communiceren
 - Rapporteert op correcte wijze de resultaten van een ML analyse.
 - Schrijft een verslag met conclusies en metrieken over een ML model.
-#### Ontwerpen
+### Ontwerpen
 - Herkent de verschillende gegevenstypes en beschrijft de verbanden tussen de wiskundige meetschalen met de datatypes uit de informatica.
 - Evalueert ontwikkelingsmethodologieën.
 - Onderkent de basisprincipes van data training & Cross-validatie.
@@ -32,15 +31,15 @@ belangrijkste concepten achter AI.
 - Selecteert het correcte algoritme voor een taak.
 - Lost problemen op met Python.
 - Documenteert een kleinschalig AI project en maakt hiervoor gebruik van de ontwikkelomgeving van Python.
-#### Optimaliseren
+### Optimaliseren
 - Test en beoordeelt kritisch een getraind statistisch model.
 - Lost eenvoudige numerieke optimalisatie problemen op aan de hand van een statistisch programma.
-#### Realiseren
+### Realiseren
 - Beargumenteert welk type ML van toepassing is voor een bepaalde applicatie.
 - Neemt de nodige voorzorgen om over- en onderfitting te voorkomen.
 - Traint een algoritme om basis van een dataset.
 - Werkt met een afzonderlijke test dataset om de score van een algoritme te kunnen schatten.
-### Leerinhoud
+## Leerinhoud
 - ML Project Lifecycle
 - Python libraries voor ML (scikit-learn, pandas, )
 - Supervised/Unsupervised ML/RL
@@ -58,3 +57,29 @@ belangrijkste concepten achter AI.
 - Data Kwaliteit
 - Data labelling
 - Training acceleration: GPU, TPU, distributed training
+
+## Programma
+| Week  | Datum | Onderdeel | Labo |
+|-------|-------|-----------|----------|
+| 1     | 16/09 | ML basisconcepten   |      |
+| 2     | 23/09 |      |      |
+| 3     | 30/09 |      |      |
+| 4     | 07/10 |      |      |
+| 5     | 14/10 |      |      |
+| 6     | 21/10 |      |      |
+| Herfstvakantie
+| 7     | 04/11 |      |      |
+| Wapenstilstand
+| 8     | 18/11 |      |      |
+| 9     | 25/11 |      |      |
+| 10    | 02/12 |      |      |
+| 11    | 09/12 |      |      |
+| 12    | 16/12 |      |      |
+| Kerstvakantie
+
+## Evaluatie
+|   |   |   |
+|---|---|---|
+| 20% | Permanente Evaluatie |  |
+| 40% | Kennistoets | Gesloten boek, Leerstof: Cursus (online), Eigen notities, Labo's |
+| 40% | Vaardigheidstoets | Oefeningen in Jupyter notebook, Gesloten boek (Python documentatie toegelaten) |

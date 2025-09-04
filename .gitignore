@@ -68,3 +68,6 @@ uv.lock
 
 # MyST build outputs
 _build
+
+# markdown sandbox
+book/tmp/
