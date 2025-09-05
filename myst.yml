@@ -17,6 +17,7 @@ project:
     - title: ML Principles
       children:
         - file: book/ml_principles/introductie.md
+        - file: book/ml_principles/afspraken.md
         - title: Basis concepten
           children:
             - file: book/ml_principles/basis/ml.ipynb
