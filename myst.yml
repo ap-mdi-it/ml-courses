@@ -12,19 +12,20 @@ project:
     - file: book/overview.md
     - title: Algemene instructies
       children:
+      - file: book/algemeen/voorbereiding.ipynb
       - file: book/algemeen/hello_world.ipynb
     - title: ML Principles
       children:
         - file: book/ml_principles/introductie.md
         - title: Basis concepten
           children:
-            - file: book/ml_principles/les1/ml.ipynb
-            - file: book/ml_principles/les1/modellen.ipynb
-            - file: book/ml_principles/les1/parameters.ipynb
-            - file: book/ml_principles/les1/features.ipynb
-            - file: book/ml_principles/les1/training.ipynb
-            - file: book/ml_principles/les1/inference.ipynb
-            - file: book/ml_principles/les1/lifecycle.ipynb
+            - file: book/ml_principles/basis/ml.ipynb
+            - file: book/ml_principles/basis/modellen.ipynb
+            - file: book/ml_principles/basis/parameters.ipynb
+            - file: book/ml_principles/basis/features.ipynb
+            - file: book/ml_principles/basis/training.ipynb
+            - file: book/ml_principles/basis/inference.ipynb
+            - file: book/ml_principles/basis/lifecycle.ipynb
     - title: Mathematical Foundations
       children:
         - file: book/math_foundations/introductie.md
