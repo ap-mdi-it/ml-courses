@@ -8,7 +8,8 @@ Concepten die in het **vet** staan moet je in je eigen woorden kunnen uitleggen 
 :class: simple
 In de theoretische delen gaan we concepten verder verduidelijke aan de hand van sterk vereenvoudigde voorbeelden, vaak met gesimuleerde data.
 Deze staan telkens in dit soort kader met het 🌍 icoon.
-Op het examen wordt je verondersteld om bij gelijkaardige eenvoudige cases de concepten te kunnen benoemen. 
+Op het examen wordt je verondersteld om bij gelijkaardige eenvoudige cases de concepten te kunnen benoemen.  
+❗**Hier en daar komen in deze secties ook begrippen door die in het vet zijn aangeduid**. Ook hier geldt dat je deze begrippen moet kunnen uitleggen op het examen.
 :::
   
 Externe links vormen _geen_ leerstof. Ze dienen enkel ter verdere verduidelijking en/of inspiratie.
