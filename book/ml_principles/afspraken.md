@@ -24,6 +24,16 @@ Dit is een cursus in opbouw. Voor iedere les zal alles wat van toepassing is onl
 Na de les is het mogelijk dat er bepaalde aanpassingen worden gemaakt om zaken te verduidelijken of aan te vullen waar nodig.
 Die aanpassingen worden telkens aan het begin van elke les overlopen.
 :::
+  
+:::{important}
+Sync aan het begin van iedere les je geforkedte repository
+![](../../img/fork_sync.png)
+en zorg vervolgens dat je de changes ook lokaal hebt met `git pull` 
+:::
+
+:::{tip}
+Neem notas tijdens de les!
+:::
 
 ## Opdracht
 In je opdracht ga je zelf een (mini-)use-case uitwerken rond een bestaande vraag en een bestaande dataset naar keuze.
