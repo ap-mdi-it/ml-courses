@@ -61,9 +61,9 @@ belangrijkste concepten achter AI.
 ## Programma
 | Week  | Datum | Onderdeel | Labo |
 |-------|-------|-----------|----------|
-| 1     | 16/09 | ML basisconcepten   |      |
-| 2     | 23/09 |      |      |
-| 3     | 30/09 |      |      |
+| 1     | 16/09 | ML basisconcepten #1  |      |
+| 2     | 23/09 | ML basisconcepten #2  |      |
+| 3     | 30/09 | Computer vision  |      |
 | 4     | 07/10 |      |      |
 | 5     | 14/10 |      |      |
 | 6     | 21/10 |      |      |
