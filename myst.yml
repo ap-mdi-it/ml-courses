@@ -25,7 +25,7 @@ project:
             - file: book/ml_principles/basis/parameters.ipynb
             - file: book/ml_principles/basis/features.ipynb
             - file: book/ml_principles/basis/training.ipynb
-            - file: book/ml_principles/basis/feedback.ipynb
+            - file: book/ml_principles/basis/evaluatie.ipynb
             - file: book/ml_principles/basis/inference.ipynb
             - file: book/ml_principles/basis/lifecycle.ipynb
     - title: Mathematical Foundations
