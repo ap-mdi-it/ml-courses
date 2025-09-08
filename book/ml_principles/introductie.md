@@ -10,9 +10,11 @@ Alle voorbeelden worden uitgewerkt in Python.
 We focussen ons in dit vak op de concepten. In het vak Mathematical foundations ga je dieper in op de wiskundige achtergrond en zullen er expliciete links gelegd worden naar deze cursus.  
 
 Uiteraard kunnen niet alle domeinen in volle detail aan bod komen. Daarenboven evolueren de specifieke technieken razend snel. Je zal via een individuele opracht zelf een recente case kiezen waar je zelf een analyse uitvoert en documenteert in functie van de basisconcepten.   
-
-Doorheen de cursus zal je ook leren over industrie-standaarden rond specifieke tools en workflows. De bedoeling is om je een degelijke “bagage” te geven om aan de slag te gaan als ML engineer.   
-
+  
+Doorheen de cursus zal je ook leren over industrie-standaarden rond specifieke tools en workflows.  
+   
+De bedoeling is om je een degelijke “bagage” te geven om aan de slag te gaan als ML engineer. Het is mogelijk dat je in een professionele context niet per se zelf met het trainen van modellen geconfronteerd zal worden. De kennis die je hier opdoet zal echter cruciaal zijn om te begrijpen wat er “onder de motorkap” van bestaande ML modellen gebeurt (om bv. probleemgedrag op te lossen), mee te blijven met nieuwe ontwikkelingen, te communiceren met data-scientists, enz..   
+  
 ## Korte omschrijving
 Leer hoe machines patronen ontdekken in data en slimme voorspellingen kunnen maken.  
 In ML Principles duik je stap voor stap in hoe AI-systemen opgebouwd worden, hoe data voorbereid en geanalyseerd wordt, en hoe eenvoudige machine
