@@ -16,11 +16,14 @@ dependencies = [
     "jupyter-book>=2.0.0a0",
     "kagglehub>=0.3.13",
     "matplotlib>=3.10.6",
+    "minisom>=2.3.5",
     "pandas>=2.3.2",
     "plotly>=6.3.0",
     "scikit-learn>=1.7.1",
     "scipy>=1.15.3",
     "seaborn>=0.13.2",
+    "torch>=2.8.0",
+    "torchvision>=0.23.0",
 ]
 
 [project.urls]  # https://packaging.python.org/en/latest/specifications/well-known-project-urls/#well-known-labels
@@ -142,3 +145,16 @@ type = "simple"
 
     [[tool.poe.tasks.test.sequence]]
     cmd = "coverage xml"
+
+[tool.uv.sources]
+torch = [
+  { index = "pytorch-cpu" },
+]
+torchvision = [
+  { index = "pytorch-cpu" },
+]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
