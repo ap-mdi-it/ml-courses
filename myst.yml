@@ -6,7 +6,6 @@ project:
   authors: [Kevin Diependaele]
   description: Cursus materiaal voor machine learning vakken
   keywords: [machine learning]
-  # authors: [Kevin Diependaele]
   github: https://github.com/ap-mdi-it/ml-courses
   toc:
     - file: book/overview.md

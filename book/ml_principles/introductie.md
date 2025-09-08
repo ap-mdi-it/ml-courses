@@ -1,14 +1,17 @@
 # Introductie
 
 ## Algemeen
-In dit OLOD maak je kennis met de basis principes van Machine Learning (ML)
-en hun rol binnen moderne AI applicaties. Je zal via diverse voorbeelden met echte data en
-echte problemen, een breed beeld krijgen van de belangrijkste ML principes.
-Uiteraard kunnen we niet alle aspecten ten volle te belichten en zullen we ons beperken tot de
-belangrijkste principes. Je zal via de labo's uitgedaagd worden om zelf op zoek te gaan naar informatie
-over best practices en bijhorende state-of-the-art tools. Dit process zal je de nodige bagage geven
-om in de praktijk, waar geen enkel ML probleem of data set hetzelfde is, in een beperkte tijd naar
-efficiente oplossingen op zoek te gaan.
+In dit OLOD maak je kennis met de basisconcepten van Machine Learning (ML) en hun realisatie binnen verschillende AI toepassingsdomeinen. Je zal via diverse voorbeelden met echte data en echte problemen, een breed beeld krijgen van de belangrijkste ML principes.   
+
+In de theorielessen bespreken we de basisconcepten binnen een bepaald toepassingsdomein aan de hand van eenvoudige, vaak ook gesimuleerde, datasets. In de labo's verdiepen we ons dan in een echte case.   
+
+Alle voorbeelden worden uitgewerkt in Python.  
+
+We focussen ons in dit vak op de concepten. In het vak Mathematical foundations ga je dieper in op de wiskundige achtergrond en zullen er expliciete links gelegd worden naar deze cursus.  
+
+Uiteraard kunnen niet alle domeinen in volle detail aan bod komen. Daarenboven evolueren de specifieke technieken razend snel. Je zal via een individuele opracht zelf een recente case kiezen waar je zelf een analyse uitvoert en documenteert in functie van de basisconcepten.   
+
+Doorheen de cursus zal je ook leren over industrie-standaarden rond specifieke tools en workflows. De bedoeling is om je een degelijke “bagage” te geven om aan de slag te gaan als ML engineer.   
 
 ## Korte omschrijving
 Leer hoe machines patronen ontdekken in data en slimme voorspellingen kunnen maken.  
