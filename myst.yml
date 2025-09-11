@@ -9,13 +9,15 @@ project:
   github: https://github.com/ap-mdi-it/ml-courses
   toc:
     - file: book/overview.md
-    - title: Lectoren
+    
+    - title: Algemene informatie
       children:
-        - file: book/lectoren/kevin_diependaele.md
-    - title: Algemene instructies
-      children:
+      - title: Lectoren
+        children:
+          - file: book/algemeen/lectoren/kevin_diependaele.md
       - file: book/algemeen/voorbereiding.ipynb
       - file: book/algemeen/hello_world.ipynb
+      - file: book/algemeen/referenties.md
     - title: ML Principles
       children:
         - file: book/ml_principles/introductie.md
