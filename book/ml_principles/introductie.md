@@ -9,18 +9,16 @@ Alle voorbeelden worden uitgewerkt in Python.
 
 We focussen ons in dit vak op de concepten. In het vak Mathematical foundations ga je dieper in op de wiskundige achtergrond en zullen er expliciete links gelegd worden naar deze cursus.  
 
-Uiteraard kunnen niet alle domeinen in volle detail aan bod komen. Daarenboven evolueren de specifieke technieken razend snel. Je zal via een individuele opracht zelf een recente case kiezen waar je zelf een analyse uitvoert en documenteert in functie van de basisconcepten.   
+Uiteraard kunnen niet alle domeinen in volle detail aan bod komen. Daarenboven evolueren de specifieke technieken razend snel. Je zal via een individuele opdracht zelf een recente case kiezen waar je zelf een analyse uitvoert en documenteert in functie van de basisconcepten.   
   
 Doorheen de cursus zal je ook leren over industrie-standaarden rond specifieke tools en workflows.  
    
-De bedoeling is om je een degelijke “bagage” te geven om aan de slag te gaan als ML engineer. Het is mogelijk dat je in een professionele context niet per se zelf met het trainen van modellen geconfronteerd zal worden. De kennis die je hier opdoet zal echter cruciaal zijn om te begrijpen wat er “onder de motorkap” van bestaande ML modellen gebeurt (om bv. probleemgedrag op te lossen), mee te blijven met nieuwe ontwikkelingen, te communiceren met data-scientists, enz..   
+De bedoeling is om je een degelijke "bagage" te geven om aan de slag te gaan als ML engineer. Het is mogelijk dat je in een professionele context niet per se zelf met het trainen van modellen geconfronteerd zal worden. De kennis die je hier opdoet zal echter cruciaal zijn om te begrijpen wat er "onder de motorkap" van bestaande ML modellen gebeurt (om bv. probleemgedrag op te lossen), mee te blijven met nieuwe ontwikkelingen, te communiceren met data-scientists, enz..   
   
 ## Korte omschrijving
 Leer hoe machines patronen ontdekken in data en slimme voorspellingen kunnen maken.  
-In ML Principles duik je stap voor stap in hoe AI-systemen opgebouwd worden, hoe data voorbereid en geanalyseerd wordt, en hoe eenvoudige machine
-learning-modellen werken.  
-We leggen de nadruk op praktische vaardigheden zoals het omgaan met datasets, het kiezen van de juiste datarepresentaties en het begrijpen van de
-belangrijkste concepten achter AI.
+In ML Principles duik je stap voor stap in hoe AI-systemen opgebouwd worden, hoe data voorbereid en geanalyseerd wordt, en hoe eenvoudige machine learning-modellen werken.  
+We leggen de nadruk op praktische vaardigheden zoals het omgaan met datasets, het kiezen van de juiste datarepresentaties en het begrijpen van de belangrijkste concepten achter AI.
 ## OLR-Leerdoelen (lijst)
 ### Communiceren
 - Rapporteert op correcte wijze de resultaten van een ML analyse.
@@ -29,7 +27,7 @@ belangrijkste concepten achter AI.
 - Herkent de verschillende gegevenstypes en beschrijft de verbanden tussen de wiskundige meetschalen met de datatypes uit de informatica.
 - Evalueert ontwikkelingsmethodologieën.
 - Onderkent de basisprincipes van data training & Cross-validatie.
-- Begrijpt de basis principes van machine learning
+- Begrijpt de basisprincipes van machine learning
 - Beschrijft op correcte wijze de afhankelijkheden tussen twee of meerdere variabelen.
 - Hanteert de principes en methodologieën van stochastisch programmeren om een realistisch vraag- en aanbod probleem op te lossen.
 - Herkent de tekenen van over- of onderfitting.
@@ -42,7 +40,7 @@ belangrijkste concepten achter AI.
 ### Realiseren
 - Beargumenteert welk type ML van toepassing is voor een bepaalde applicatie.
 - Neemt de nodige voorzorgen om over- en onderfitting te voorkomen.
-- Traint een algoritme om basis van een dataset.
+- Traint een algoritme op basis van een dataset.
 - Werkt met een afzonderlijke test dataset om de score van een algoritme te kunnen schatten.
 ## Leerinhoud
 - ML Project Lifecycle
