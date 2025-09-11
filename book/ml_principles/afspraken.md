@@ -6,7 +6,7 @@ Concepten die in het **vet** staan moet je in je eigen woorden kunnen uitleggen 
 :::{note} 🌍
 :icon: false
 :class: simple
-In de theoretische delen gaan we concepten verder verduidelijke aan de hand van sterk vereenvoudigde voorbeelden, vaak met gesimuleerde data.
+In de theoretische delen gaan we concepten verder verduidelijken aan de hand van sterk vereenvoudigde voorbeelden, vaak met gesimuleerde data.
 Deze staan telkens in dit soort kader met het 🌍 icoon.
 Op het examen wordt je verondersteld om bij gelijkaardige eenvoudige cases de concepten te kunnen benoemen.  
 ❗**Hier en daar komen in deze secties ook begrippen door die in het vet zijn aangeduid**. Ook hier geldt dat je deze begrippen moet kunnen uitleggen op het examen.
@@ -27,7 +27,7 @@ Die aanpassingen worden telkens aan het begin van elke les overlopen.
 :::
   
 :::{important}
-Sync aan het begin van iedere les je geforkedte repository
+Sync aan het begin van iedere les je geforkte repository
 ![](../../img/fork_sync.png)
 en zorg vervolgens dat je de changes ook lokaal hebt met `git pull` 
 :::
@@ -46,7 +46,7 @@ Je levert een (serie) notebook(s) af met daarin minimaal volgende secties:
 - Model training en hyper parameter tuning
 - Performantie analyse  
   
-Je geeft hierover een korte mondelinge presentatie tijdens de labo's van december. De presentatie wordt gevold door een korte vragensessie.
+Je geeft hierover een korte mondelinge presentatie tijdens de labo's van december. De presentatie wordt gevolgd door een korte vragensessie.
   
 :::{important}
 Je maakt eerst een keuze van een probleem en bijhorende dataset en toetst dit ten laatste in het labo van **30 september 2025** af met de titularis.
