@@ -49,7 +49,7 @@ Je levert een (serie) notebook(s) af met daarin minimaal volgende secties:
 Je geeft hierover een korte mondelinge presentatie tijdens de labo's van december. De presentatie wordt gevolgd door een korte vragensessie.
   
 :::{important}
-Je maakt eerst een keuze van een probleem en bijhorende dataset en toetst dit ten laatste in het labo van **30 september 2025** af met de titularis.
+Je maakt eerst een keuze van een probleem en bijhorende dataset en toets je dit ten laatste in het labo van **30 september 2025** af met de titularis.
 Daarna ga je zelfstandig aan de slag. Er is tijdens de labo's ruimte voor specifieke vragen of problemen.
 Deadline voor het indienen van de opdracht: **1 december 2025**
 :::

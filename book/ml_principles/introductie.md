@@ -64,20 +64,20 @@ We leggen de nadruk op praktische vaardigheden zoals het omgaan met datasets, he
 ## Programma
 | Week  | Datum | Onderdeel | Labo |
 |-------|-------|-----------|----------|
-| 1     | 16/09 | ML basisconcepten #1  |      |
-| 2     | 23/09 | ML basisconcepten #2  |      |
-| 3     | 30/09 | Klassificatie  |      |
-| 4     | 07/10 |      |      |
-| 5     | 14/10 |      |      |
-| 6     | 21/10 |      |      |
+| 1     | 16/09 | ML basisconcepten #1 | Setup |
+| 2     | 23/09 | ML basisconcepten #2 | Data-Exploratie |
+| 3     | 30/09 | Tabulaire data  | Extreme Gradient Boosted Trees |
+| 4     | 07/10 | Beeldanalyse | Object-detectie |
+| 5     | 14/10 | Beeldgeneratie | Diffusion modellen |
+| 6     | 21/10 | Taalmodellen | Transformers |
 | Herfstvakantie
-| 7     | 04/11 |      |      |
+| 7     | 04/11 | Tijdreeksanalyse | State-space modellen |
 | Wapenstilstand
-| 8     | 18/11 |      |      |
-| 9     | 25/11 |      |      |
-| 10    | 02/12 |      |      |
-| 11    | 09/12 |      |      |
-| 12    | 16/12 |      |      |
+| 8     | 18/11 | Netwerkanalyse | Bayesian Networlks |
+| 9     | 25/11 | Ruimtelijke analyse | Spatial Random Forests |
+| 10    | 02/12 | Causal & Explainable AI | DoWhy, SHAP & LIME |
+| 11    | 09/12 | Autonome Agents | Deep Q-Networks|
+| 12    | 16/12 | Voorbereiding examen | Voorbereiding examen|
 | Kerstvakantie
 
 ## Evaluatie
