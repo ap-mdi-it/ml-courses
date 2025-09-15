@@ -65,18 +65,18 @@ We leggen de nadruk op praktische vaardigheden zoals het omgaan met datasets, he
 | Week  | Datum | Onderdeel | Labo |
 |-------|-------|-----------|----------|
 | 1     | 16/09 | ML basisconcepten #1 | Setup |
-| 2     | 23/09 | ML basisconcepten #2 | Data-Exploratie |
-| 3     | 30/09 | Tabulaire data  | Extreme Gradient Boosted Trees |
-| 4     | 07/10 | Beeldanalyse | Object-detectie |
-| 5     | 14/10 | Beeldgeneratie | Diffusion modellen |
-| 6     | 21/10 | Taalmodellen | Transformers |
+| 2     | 23/09 | ML basisconcepten #2 | Uber: Data-Exploratie met Pandas en Plotly  |
+| 3     | 30/09 | Tabulaire data  | Airbnb: prijsvoorspellingen met XGBoost |
+| 4     | 07/10 | Beeldanalyse | TACO: Zwerfvuildetectie |
+| 5     | 14/10 | Beeldgeneratie | Nieuwe vlinders met een _diffusion_ model |
+| 6     | 21/10 | Taalmodellen | _Retrieval Augmented Generation_ |
 | Herfstvakantie
-| 7     | 04/11 | Tijdreeksanalyse | State-space modellen |
+| 7     | 04/11 | Tijdreeksanalyse | Voorspellen van energieverbruik met (Neural)Prophet |
 | Wapenstilstand
-| 8     | 18/11 | Netwerkanalyse | Bayesian Networlks |
-| 9     | 25/11 | Ruimtelijke analyse | Spatial Random Forests |
+| 8     | 18/11 | Netwerkanalyse | Amazon: _Recommender_ systeem met _graph neural networks_ |
+| 9     | 25/11 | Ruimtelijke analyse | Uber: Voorspelling van annuleringen met spatiale features |
 | 10    | 02/12 | Causal & Explainable AI | DoWhy, SHAP & LIME |
-| 11    | 09/12 | Autonome Agents | Deep Q-Networks|
+| 11    | 09/12 | Autonome Agents | Mario-agent |
 | 12    | 16/12 | Voorbereiding examen | Voorbereiding examen|
 | Kerstvakantie
 
