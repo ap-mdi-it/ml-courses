@@ -45,6 +45,9 @@ project:
             - file: book/math_foundations/linalg/special_tensors.ipynb
             - file: book/math_foundations/linalg/inverse.ipynb
             - file: book/math_foundations/linalg/lineaire_regressie.ipynb
+        - title: Labo
+          children:
+            - file: book/math_foundations/labo/python.ipynb
 site:
   options:
     favicon: img/AP_favicon.ico
