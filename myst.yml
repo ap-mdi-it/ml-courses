@@ -42,6 +42,9 @@ project:
             - file: book/math_foundations/linalg/why_tensors.ipynb
             - file: book/math_foundations/linalg/basis_ops.ipynb
             - file: book/math_foundations/linalg/dot_prod.ipynb
+            - file: book/math_foundations/linalg/special_tensors.ipynb
+            - file: book/math_foundations/linalg/inverse.ipynb
+            - file: book/math_foundations/linalg/lineaire_regressie.ipynb
 site:
   options:
     favicon: img/AP_favicon.ico
