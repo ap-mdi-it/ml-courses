@@ -48,6 +48,8 @@ project:
         - title: Labo
           children:
             - file: book/math_foundations/labo/python.ipynb
+            - file: book/math_foundations/labo/numpy.ipynb
+            - file: book/math_foundations/labo/linalg.ipynb
 site:
   options:
     favicon: img/AP_favicon.ico
