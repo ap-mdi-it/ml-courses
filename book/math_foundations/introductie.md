@@ -46,8 +46,8 @@ Optimaliseert functies die vaak gebruikt worden bij machine learning analytisch 
 ## Programma
 | Week  | Datum | Onderdeel | Labo |
 |-------|-------|----------|----------|
-| 1     | 19/09 |      |      |
-| 2     | 26/09 |      |      |
+| 1     | 19/09 |   Lineaire algebra #1   |   Lineaire Regressie   |
+| 2     | 26/09 |   Lineaire algebra #2   |   Vector Search  |
 | 3     | 03/10 |      |      |
 | 4     | 10/10 |      |      |
 | 5     | 17/10 |      |      |
