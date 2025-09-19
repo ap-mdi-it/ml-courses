@@ -36,7 +36,7 @@ project:
       children:
         - file: book/math_foundations/introductie.md
         - file: book/math_foundations/afspraken.md
-        - title: Linear Algebra
+        - title: Linear algebra
           children:
             - file: book/math_foundations/linalg/tensors.ipynb
             - file: book/math_foundations/linalg/basis_ops.ipynb
