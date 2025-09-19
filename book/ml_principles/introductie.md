@@ -84,5 +84,5 @@ We leggen de nadruk op praktische vaardigheden zoals het omgaan met datasets, he
 |   |   |   |
 |---|---|---|
 | 20% | Permanente Evaluatie | Zie "Opdracht" sectie in de "Afspraken" pagina |
-| 40% | Kennistoets | Gesloten boek, Leerstof: Cursus (online), Eigen notities, Labo's |
-| 40% | Vaardigheidstoets | Oefeningen in Jupyter notebook, Gesloten boek (Python documentatie toegelaten) |
+| 30% | Kennistoets | Gesloten boek, Leerstof: Cursus (online), Eigen notities, Labo's |
+| 50% | Vaardigheidstoets | Oefeningen in Jupyter notebook, Gesloten boek (Python documentatie toegelaten) |
