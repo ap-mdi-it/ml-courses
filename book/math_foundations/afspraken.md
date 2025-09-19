@@ -1,7 +1,14 @@
 # Afspraken
 
 ## Leerstof
-🚧
+Begrippen en definities die in het **vet** staan moet je in je eigen woorden kunnen uitleggen op het examen.  
+  
+We besteden in de lessen veel aandacht aan wiskundige notatie. Het is de bedoeling dat je daarmee vertrouwd geraakt.
+Op het examen krijg je een aantal oefeningen om éénvoudige formules te vertalen in Python code.  
+  
+De formules die gebruikt worden bij de uiteenzetting van begrippen en definities vormen _enkel leerstof indien ze expliciet voorkomen in de oefeningen_. Het is echter _sterk aangeraden_ om de wiskundige formules die daarbij horen te bestuderen en te begrijpen.  
+  
+De oefeningen vormen de basis voor de praktische eindproef.  
   
 Externe links vormen _geen_ leerstof. Ze dienen enkel ter verdere verduidelijking en/of inspiratie.
 

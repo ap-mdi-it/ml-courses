@@ -1,6 +1,6 @@
 # Introductie
 ## Korte omschrijving
-In dit OLOD bekijken we de fundamentele bouwstenen van Artificiële Intelligentie (AI) en Machine Learning (ML): lineaire algebra, kansrekenen, statistiek en optimalisatie. Dit doen we met een combinatie van theorie en interactieve voorbeelden in python, de programmeertaal bij uitstek voor AI toepassingen.  
+In dit OLOD bekijken we de fundamentele bouwstenen van Artificiële Intelligentie (AI) en Machine Learning (ML): lineaire algebra, kansrekenen, statistiek en optimalisatie. Dit doen we met een combinatie van theorie en interactieve voorbeelden in Python, de programmeertaal bij uitstek voor AI toepassingen.  
 Lineaire algebra ligt aan de basis van de meeste algoritmes die gebruikt worden voor AI en is belangrijk om te begrijpen wat er zich achter de schermen afspeelt bij deze algoritmes. We bekijken ook een toepassing van lineaire algebra voor beeldcompressie.  
 Het gebeurt maar zelden dat we iets met 100% zekerheid kunnen voorspellen, meestal is er een onzekerheid aan verbonden. Dit geldt ook bij
 voorspellingen voor AI-toepassingen. Het is dan ook erg belangrijk om de onzekerheid van deze voorspellingen te kunnen inschatten. Kansrekenen leert
@@ -46,8 +46,8 @@ Optimaliseert functies die vaak gebruikt worden bij machine learning analytisch 
 ## Programma
 | Week  | Datum | Onderdeel | Labo |
 |-------|-------|----------|----------|
-| 1     | 19/09 |   Lineaire algebra #1   |   Lineaire Regressie   |
-| 2     | 26/09 |   Lineaire algebra #2   |   Vector Search  |
+| 1     | 19/09 |   Lineaire algebra #1   |   Vectoren, Matrices & Tensors   |
+| 2     | 26/09 |   Lineaire algebra #2   |   Lineaire Regressie  |
 | 3     | 03/10 |      |      |
 | 4     | 10/10 |      |      |
 | 5     | 17/10 |      |      |
