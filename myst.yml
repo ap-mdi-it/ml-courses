@@ -38,9 +38,9 @@ project:
         - file: book/math_foundations/afspraken.md
         - title: Linear Algebra
           children:
-            - file: book/math_foundations/linalg/tensors.ipynb 
-            - file: book/math_foundations/linalg/why_tensors.ipynb
+            - file: book/math_foundations/linalg/tensors.ipynb
             - file: book/math_foundations/linalg/basis_ops.ipynb
+            - file: book/math_foundations/linalg/why_tensors.ipynb
             - file: book/math_foundations/linalg/dot_prod.ipynb
             - file: book/math_foundations/linalg/special_tensors.ipynb
             - file: book/math_foundations/linalg/inverse.ipynb
