@@ -47,23 +47,23 @@ Optimaliseert functies die vaak gebruikt worden bij machine learning analytisch 
 | Week  | Datum | Onderdeel | Labo |
 |-------|-------|----------|----------|
 | 1     | 19/09 |   Lineaire algebra #1   |   Vectoren, Matrices & Tensors   |
-| 2     | 26/09 |   Lineaire algebra #2   |   Lineaire Regressie  |
-| 3     | 03/10 |      |      |
-| 4     | 10/10 |      |      |
-| 5     | 17/10 |      |      |
-| 6     | 24/10 |      |      |
+| 2     | 26/09 |   Lineaire algebra #2   |   Dot products, Speciale tensors & Stelsels van lineaire vergelijkingen  |
+| 3     | 03/10 |   Gradients    |   OLS & Gradient Descent   |
+| 4     | 10/10 |   Likelihood   |   Maximum Likelihood Estimation   |
+| 5     | 17/10 |   Bayes   | Bayesian Linear Regression     |
+| 6     | 24/10 |   Singular Value Decomposition   |  Principal Components Analysis   |
 | Herfstvakantie
-| 7     | 07/11 |      |      |
-| 8     | 14/11 |      |      |
-| 9     | 21/11 |      |      |
-| 10    | 28/11 |      |      |
-| 11    | 05/12 |      |      |
-| 12    | 12/12 |      |      |
-| 13    | 19/12 |      |      |
+| 7     | 07/11 |   Neurale Netwerken #1   |      |
+| 8     | 14/11 |   Neurale Netwerken #2   |      |
+| 9     | 21/11 |   Random Forests   |      |
+| 10    | 28/11 |   Gradient Boosted Trees   |      |
+| 11    | 05/12 |   SVM Kernel Machines |      |
+| 12    | 12/12 |   Markov Decision Processes   |      |
+| 13    | 19/12 |   Voorbereiding examen   |  Voorbereiding examen   |
 
 ## Evaluatie
 |   |   |   |
 |---|---|---|
-| 20% | Permanente Evaluatie | Presentatie |
-| 40% | Kennistoets | Gesloten boek, Leerstof: Slides (Digitap), Eigen notities, Labo's |
+| 20% | Permanente Evaluatie | Zie "Opdracht" sectie in de "Afspraken" pagina  |
+| 40% | Kennistoets | Gesloten boek, Leerstof: Cursus (online), Eigen notities, Labo' - Zie "Leerstof" sectie in de "Afspraken" pagina |
 | 40% | Vaardigheidstoets | Oefeningen in Jupyter notebook, Gesloten boek (Python documentatie toegelaten) |
