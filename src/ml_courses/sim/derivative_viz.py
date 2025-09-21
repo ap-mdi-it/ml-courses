@@ -55,6 +55,8 @@ class DerivativeVisualization:
             0.01,  # Pane 3: very small delta (approaching 0)
         ]
 
+        self.pane_num = 3
+
     def _quadratic_function_scalar(self, x: float) -> float:
         """Calculate y = x² for a single x value."""
         return float(x**2)
@@ -96,10 +98,10 @@ class DerivativeVisualization:
         slope = self._calculate_secant_slope(x1, delta_x)
         y_line = y1 + slope * (x_line - x1)
 
-        color = "red" if pane_num < 3 else "green"
+        color = "red" if pane_num < self.pane_num else "green"
         label = (
             f"Secant line (slope ≈ {slope:.2f})"
-            if pane_num < 3
+            if pane_num < self.pane_num
             else f"Tangent line (slope = {slope:.2f})"
         )
         ax.plot(x_line, y_line, color=color, linewidth=2, linestyle="--", label=label)
@@ -112,7 +114,7 @@ class DerivativeVisualization:
         y1, y2 = self._quadratic_function_scalar(x1), self._quadratic_function_scalar(x2)
 
         # Only draw square for first two panes
-        if pane_num < 3:
+        if pane_num < self.pane_num:
             # Create rectangle for Δx and Δy
             rect = Rectangle(
                 (x1, y1),
@@ -153,7 +155,7 @@ class DerivativeVisualization:
             self._quadratic_function_scalar(self.x_point + delta_x),
         )
 
-        if pane_num < 3:
+        if pane_num < self.pane_num:
             # Secant slope annotation - positioned at bottom-right to avoid legend overlap
             annotation = f"Slope = Δy/Δx = {y2 - y1:.2f}/{delta_x:.2f} = {slope:.2f}"
             ax.text(
@@ -161,7 +163,7 @@ class DerivativeVisualization:
                 0.05,
                 annotation,
                 transform=ax.transAxes,
-                bbox=dict(boxstyle="round,pad=0.3", facecolor="lightblue", alpha=0.8),
+                bbox={"boxstyle": "round,pad=0.3", "facecolor": "lightblue", "alpha": 0.8},
                 fontsize=10,
                 verticalalignment="bottom",
                 horizontalalignment="right",
@@ -175,7 +177,7 @@ class DerivativeVisualization:
                 0.05,
                 annotation,
                 transform=ax.transAxes,
-                bbox=dict(boxstyle="round,pad=0.3", facecolor="lightgreen", alpha=0.8),
+                bbox={"boxstyle": "round,pad=0.3", "facecolor": "lightgreen", "alpha": 0.8},
                 fontsize=10,
                 verticalalignment="bottom",
                 horizontalalignment="right",
