@@ -5,7 +5,21 @@ This module provides a Monte Carlo simulation for estimating linear regression p
 in the coffee shop tips example using a naive sampling approach.
 """
 
+from typing import TypedDict
+
 import numpy as np
+
+
+class SimulationResults(TypedDict):
+    """TypedDict for Monte Carlo simulation results."""
+
+    final_b1: float
+    final_b2: float
+    final_loss: float
+    acceptance_rate: float
+    b1_samples: list[float]
+    b2_samples: list[float]
+    loss_samples: list[float]
 
 
 class MonteCarloTipsSimulation:
@@ -21,14 +35,14 @@ class MonteCarloTipsSimulation:
 
     def __init__(  # noqa: PLR0913
         self,
-        n_customers=50,
-        true_b1=0.50,
-        true_b2=0.15,
-        noise_std=0.30,
-        order_min=3,
-        order_max=25,
-        seed=42,
-    ):
+        n_customers: int = 50,
+        true_b1: float = 0.50,
+        true_b2: float = 0.15,
+        noise_std: float = 0.30,
+        order_min: float = 3,
+        order_max: float = 25,
+        seed: int = 42,
+    ) -> None:
         """
         Initialize the simulation with data generation parameters.
 
@@ -58,7 +72,7 @@ class MonteCarloTipsSimulation:
         self.rng = np.random.default_rng(seed)
         self.generate_data()
 
-    def generate_data(self):
+    def generate_data(self) -> None:
         """Generate synthetic order totals and observed tips based on true parameters."""
         self.order_totals = self.rng.uniform(self.order_min, self.order_max, self.n_customers)
         self.order_totals = np.sort(self.order_totals)  # Sort for nicer visualization
@@ -67,7 +81,7 @@ class MonteCarloTipsSimulation:
         self.observed_tips = np.maximum(0, self.true_tips + noise)  # Tips can't be negative
 
     @staticmethod
-    def calculate_loss(b1, b2, x, y):
+    def calculate_loss(b1: float, b2: float, x: np.ndarray, y: np.ndarray) -> float:
         """
         Calculate the Sum of Squared Errors (SSE) loss.
 
@@ -93,13 +107,13 @@ class MonteCarloTipsSimulation:
 
     def run_simulation(  # noqa: PLR0913
         self,
-        n_samples=30000,
-        step_size=0.0001,
-        b1_init=None,
-        b2_init=None,
-        b1_bounds=(0, 50),
-        b2_bounds=(0, 1.0),
-    ):
+        n_samples: int = 30000,
+        step_size: float = 0.0001,
+        b1_init: float | None = None,
+        b2_init: float | None = None,
+        b1_bounds: tuple[float, float] = (0, 50),
+        b2_bounds: tuple[float, float] = (0, 1.0),
+    ) -> SimulationResults:
         """
         Run the Monte Carlo simulation to estimate b1 and b2.
 
@@ -120,7 +134,7 @@ class MonteCarloTipsSimulation:
 
         Returns
         -------
-        dict
+        SimulationResults
             Results containing final parameters, loss, acceptance rate, and sample histories.
         """
         if b1_init is None:
