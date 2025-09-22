@@ -10,7 +10,7 @@ import numpy as np
 
 class MonteCarloTipsSimulation:
     """
-
+    Simulation class for coffee shop tips analysis.
 
     Monte Carlo simulation for estimating linear regression parameters (b1, b2)
     in the coffee shop tips example using a naive sampling approach.
@@ -19,7 +19,7 @@ class MonteCarloTipsSimulation:
     a Monte Carlo optimization to minimize the Sum of Squared Errors (SSE) loss.
     """
 
-    def __init__(
+    def __init__(  # noqa: PLR0913
         self,
         n_customers=50,
         true_b1=0.50,
@@ -59,9 +59,7 @@ class MonteCarloTipsSimulation:
         self.generate_data()
 
     def generate_data(self):
-        """
-        Generate synthetic order totals and observed tips based on true parameters.
-        """
+        """Generate synthetic order totals and observed tips based on true parameters."""
         self.order_totals = self.rng.uniform(self.order_min, self.order_max, self.n_customers)
         self.order_totals = np.sort(self.order_totals)  # Sort for nicer visualization
         self.true_tips = self.true_b1 + self.true_b2 * self.order_totals
@@ -93,7 +91,7 @@ class MonteCarloTipsSimulation:
         d = y - y_hat
         return np.sum(d**2)
 
-    def run_simulation(
+    def run_simulation(  # noqa: PLR0913
         self,
         n_samples=30000,
         step_size=0.0001,
