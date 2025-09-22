@@ -32,6 +32,9 @@ project:
             - file: book/ml_principles/basis/algorithmes.ipynb
             - file: book/ml_principles/basis/inference.ipynb
             - file: book/ml_principles/basis/lifecycle.ipynb
+        - title: Labo
+          children:
+            - file: book/ml_principles/labo/uber.ipynb
     - title: Mathematical Foundations
       children:
         - file: book/math_foundations/introductie.md
