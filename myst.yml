@@ -34,7 +34,8 @@ project:
             - file: book/ml_principles/basis/lifecycle.ipynb
         - title: Labo
           children:
-            - file: book/ml_principles/labo/uber.ipynb
+            - file: book/ml_principles/labo/uber#1.ipynb
+            - file: book/ml_principles/labo/uber#2.ipynb
     - title: Mathematical Foundations
       children:
         - file: book/math_foundations/introductie.md
