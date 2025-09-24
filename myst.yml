@@ -53,6 +53,7 @@ project:
               children:
                 - file: book/math_foundations/linalg/lineaire_regressie/grid.ipynb
                 - file: book/math_foundations/linalg/lineaire_regressie/monte_carlo.ipynb
+                - file: book/math_foundations/linalg/lineaire_regressie/gradient.ipynb
         - title: Labo
           children:
             - file: book/math_foundations/labo/python.ipynb
