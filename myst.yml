@@ -52,6 +52,7 @@ project:
             - title: Lineaire regressie
               children:
                 - file: book/math_foundations/linalg/lineaire_regressie/grid.ipynb
+                - file: book/math_foundations/linalg/lineaire_regressie/monte_carlo.ipynb
         - title: Labo
           children:
             - file: book/math_foundations/labo/python.ipynb
