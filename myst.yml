@@ -32,6 +32,7 @@ project:
             - file: book/ml_principles/basis/algorithmes.ipynb
             - file: book/ml_principles/basis/inference.ipynb
             - file: book/ml_principles/basis/lifecycle.ipynb
+            - file: book/ml_principles/basis/structuur.ipynb
         - title: Labo
           children:
             - file: book/ml_principles/labo/uber#1.ipynb
@@ -48,7 +49,9 @@ project:
             - file: book/math_foundations/linalg/dot_prod.ipynb
             - file: book/math_foundations/linalg/special_tensors.ipynb
             - file: book/math_foundations/linalg/inverse.ipynb
-            - file: book/math_foundations/linalg/lineaire_regressie.ipynb
+            - title: Lineaire regressie
+              children:
+                - file: book/math_foundations/linalg/lineaire_regressie/grid.ipynb
         - title: Labo
           children:
             - file: book/math_foundations/labo/python.ipynb

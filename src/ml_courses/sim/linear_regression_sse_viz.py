@@ -52,6 +52,10 @@ class LinearRegressionSSEVisualizer:
         if self.true_bias is not None and self.true_slope is not None:
             self.true_sse = self._calculate_sse(self.true_bias, self.true_slope)
 
+        self.surface_min_bias = None
+        self.surface_min_slope = None
+        self.surface_min_sse = None
+
     def _calculate_sse(self, bias: float, slope: float) -> float:
         """
         Calculate Sum of Squared Errors for given parameters.
@@ -225,6 +229,12 @@ class LinearRegressionSSEVisualizer:
             resolution=resolution,
             scale_factor=scale_factor,
         )
+
+        # Calculate min SSE for marker
+        min_indices = np.unravel_index(np.argmin(sse_mesh, axis=None), sse_mesh.shape)
+        self.surface_min_bias = bias_mesh[min_indices]
+        self.surface_min_slope = slope_mesh[min_indices]
+        self.surface_min_sse = np.min(sse_mesh)
 
         # Create the main surface with contours
         surface_kwargs = {
@@ -404,3 +414,33 @@ class LinearRegressionSSEVisualizer:
                     ),
                 )
             )
+
+        # Surface minimum is always calculated in create_3d_surface_plot before this method is called
+        assert all(
+            x is not None
+            for x in [self.surface_min_bias, self.surface_min_slope, self.surface_min_sse]
+        ), "Surface minima should be set before calling _add_minima_markers"
+
+        # Add surface minimum marker
+        fig.add_trace(
+            go.Scatter3d(
+                x=[self.surface_min_bias],
+                y=[self.surface_min_slope],
+                z=[self.surface_min_sse],
+                mode="markers",
+                marker={
+                    "size": 10,
+                    "color": "limegreen",
+                    "symbol": "diamond",
+                    "line": {"color": "black", "width": 2},
+                },
+                name="Surface Minimum",
+                hovertemplate=(
+                    "<b>Surface Minimum:</b><br>"
+                    "bias: %{x:.3f}<br>"
+                    "slope: %{y:.3f}<br>"
+                    "SSE: %{z:.3f}<br>"
+                    "<extra></extra>"
+                ),
+            )
+        )
