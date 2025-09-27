@@ -27,6 +27,9 @@ RUN sudo apt-get update && sudo apt-get install -y curl && \
     sudo apt-get install -y nodejs && \
     sudo npm install -g npm@11.5.2
 
+# Install GraphViz
+RUN sudo apt-get update && sudo apt-get install -y graphviz
+
 # Configure the non-root user's shell.
 RUN mkdir ~/.history/ && \
     echo 'HISTFILE=~/.history/.bash_history' >> ~/.bashrc && \

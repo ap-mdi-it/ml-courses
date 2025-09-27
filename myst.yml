@@ -37,6 +37,7 @@ project:
           children:
             - file: book/ml_principles/structured/intro.ipynb
             - file: book/ml_principles/structured/trees.ipynb
+            - file: book/ml_principles/structured/forests.ipynb
         - title: Labo
           children:
             - file: book/ml_principles/labo/uber#1.ipynb
