@@ -33,6 +33,10 @@ project:
             - file: book/ml_principles/basis/inference.ipynb
             - file: book/ml_principles/basis/lifecycle.ipynb
             - file: book/ml_principles/basis/structuur.ipynb
+        - title: ML voor gestructureerde data
+          children:
+            - file: book/ml_principles/structured/intro.ipynb
+            - file: book/ml_principles/structured/trees.ipynb
         - title: Labo
           children:
             - file: book/ml_principles/labo/uber#1.ipynb
