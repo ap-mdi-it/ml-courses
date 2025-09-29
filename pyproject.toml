@@ -26,6 +26,7 @@ dependencies = [
     "statsmodels>=0.14.5",
     "torch>=2.8.0",
     "torchvision>=0.23.0",
+    "xgboost-cpu>=3.0.5",
 ]
 
 [project.urls]  # https://packaging.python.org/en/latest/specifications/well-known-project-urls/#well-known-labels

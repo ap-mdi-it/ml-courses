@@ -4,6 +4,9 @@
 
 Machine learing course materials
 
+## Pages URL
+[https://ap-mdi-it.github.io/ml-courses](https://ap-mdi-it.github.io/ml-courses)
+
 ## Installing
 
 To install this package, run:
