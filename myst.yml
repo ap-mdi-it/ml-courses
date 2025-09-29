@@ -29,10 +29,16 @@ project:
             - file: book/ml_principles/basis/parameters.ipynb
             - file: book/ml_principles/basis/features.ipynb
             - file: book/ml_principles/basis/training.ipynb
-            - file: book/ml_principles/basis/algorithmes.ipynb
+            - file: book/ml_principles/basis/algoritmes.ipynb
             - file: book/ml_principles/basis/inference.ipynb
             - file: book/ml_principles/basis/lifecycle.ipynb
             - file: book/ml_principles/basis/structuur.ipynb
+        - title: ML voor gestructureerde data
+          children:
+            - file: book/ml_principles/structured/intro.ipynb
+            - file: book/ml_principles/structured/trees.ipynb
+            - file: book/ml_principles/structured/forests.ipynb
+            - file: book/ml_principles/structured/boosting.ipynb
         - title: Labo
           children:
             - file: book/ml_principles/labo/uber#1.ipynb

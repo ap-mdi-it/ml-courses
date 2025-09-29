@@ -33,7 +33,7 @@ en zorg vervolgens dat je de changes ook lokaal hebt met `git pull`
 :::
 
 :::{tip}
-Neem notas tijdens de les!
+Neem nota's tijdens de les!
 :::
 
 ## Opdracht
