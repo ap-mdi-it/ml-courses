@@ -39,6 +39,7 @@ project:
             - file: book/ml_principles/structured/trees.ipynb
             - file: book/ml_principles/structured/forests.ipynb
             - file: book/ml_principles/structured/boosting.ipynb
+            - file: book/ml_principles/structured/automl.ipynb
         - title: Labo
           children:
             - file: book/ml_principles/labo/uber#1.ipynb
