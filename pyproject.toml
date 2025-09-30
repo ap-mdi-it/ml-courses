@@ -12,6 +12,7 @@ authors = [
 ]
 requires-python = ">=3.10,<4.0"
 dependencies = [
+    "cairosvg>=2.8.2",
     "dtreeviz>=2.2.2",
     "ipykernel>=6.30.1",
     "jupyter-book>=2.0.0a0",
