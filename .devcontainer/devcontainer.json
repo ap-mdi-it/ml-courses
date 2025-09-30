@@ -28,6 +28,9 @@
                 "ms-python.python",
                 "ms-toolsai.jupyter",
                 "ryanluker.vscode-coverage-gutters",
+                "saoudrizwan.claude-dev",
+                "streetsidesoftware.code-spell-checker",
+                "streetsidesoftware.code-spell-checker-dutch",
                 "tamasfe.even-better-toml",
                 "visualstudioexptteam.vscodeintellicode"
             ],
@@ -35,6 +38,7 @@
                 "coverage-gutters.coverageFileNames": [
                     "reports/coverage.xml"
                 ],
+                "cSpell.language": "en,nl",
                 "editor.codeActionsOnSave": {
                     "source.fixAll": "explicit",
                     "source.organizeImports": "explicit"
