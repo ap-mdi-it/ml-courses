@@ -69,6 +69,7 @@ project:
             - file: book/math_foundations/labo/python.ipynb
             - file: book/math_foundations/labo/numpy.ipynb
             - file: book/math_foundations/labo/linalg.ipynb
+            - file: book/math_foundations/labo/linreg.ipynb
 site:
   options:
     favicon: img/AP_favicon.ico
