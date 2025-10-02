@@ -3,13 +3,15 @@ version: 1
 project:
   id: 1242181b-d75e-491e-bc5b-262ffd9807f9
   title: Machine Learning Cursussen
-  authors: [Kevin Diependaele]
+  authors:
+    - name: Kevin Diependaele
   description: Cursus materiaal voor machine learning vakken
   keywords: [machine learning]
   github: https://github.com/ap-mdi-it/ml-courses
+  license: CC-BY-4.0
+  edit_url: null
   toc:
     - file: book/overview.md
-    
     - title: Algemene informatie
       children:
       - title: Lectoren
