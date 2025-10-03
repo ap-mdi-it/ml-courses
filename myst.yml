@@ -7,7 +7,6 @@ project:
     - name: Kevin Diependaele
   description: Cursus materiaal voor machine learning vakken
   keywords: [machine learning]
-  github: https://github.com/ap-mdi-it/ml-courses
   license: CC-BY-4.0
   edit_url: null
   toc:
