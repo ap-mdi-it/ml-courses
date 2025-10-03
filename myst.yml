@@ -60,11 +60,11 @@ project:
             - file: book/math_foundations/linalg/inverse.ipynb
         - title: Lineaire regressie
           children:
-            - file: book/math_foundations/linalg/lineaire_regressie/grid.ipynb
-            - file: book/math_foundations/linalg/lineaire_regressie/monte_carlo.ipynb
-            - file: book/math_foundations/linalg/lineaire_regressie/gradient.ipynb
-            - file: book/math_foundations/linalg/lineaire_regressie/closed.ipynb
-            - file: book/math_foundations/linalg/lineaire_regressie/gradient_descent.ipynb
+            - file: book/math_foundations/lineaire_regressie/grid.ipynb
+            - file: book/math_foundations/lineaire_regressie/monte_carlo.ipynb
+            - file: book/math_foundations/lineaire_regressie/gradient.ipynb
+            - file: book/math_foundations/lineaire_regressie/closed.ipynb
+            - file: book/math_foundations/lineaire_regressie/gradient_descent.ipynb
         - title: Labo
           children:
             - file: book/math_foundations/labo/python.ipynb
