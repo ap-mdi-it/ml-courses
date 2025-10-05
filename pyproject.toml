@@ -14,19 +14,23 @@ requires-python = ">=3.10,<4.0"
 dependencies = [
     "cairosvg>=2.8.2",
     "dtreeviz>=2.2.2",
+    "einops>=0.8.1",
     "ipykernel>=6.30.1",
     "jupyter-book>=2.0.0a0",
     "kagglehub>=0.3.13",
     "matplotlib>=3.10.6",
     "minisom>=2.3.5",
+    "opencv-python-headless>=4.12.0.88",
     "pandas>=2.3.2",
     "plotly>=6.3.0",
     "scikit-learn>=1.7.1",
     "scipy>=1.15.3",
     "seaborn>=0.13.2",
     "statsmodels>=0.14.5",
+    "timm>=1.0.20",
     "torch>=2.8.0",
     "torchvision>=0.23.0",
+    "transformers>=4.57.0",
     "xgboost-cpu>=3.0.5",
 ]
 
