@@ -113,6 +113,8 @@ class MonteCarloTipsSimulation:
         b2_init: float | None = None,
         b1_bounds: tuple[float, float] = (0, 50),
         b2_bounds: tuple[float, float] = (0, 1.0),
+        order_totals: np.ndarray | None = None,
+        observed_tips: np.ndarray | None = None,
     ) -> SimulationResults:
         """
         Run the Monte Carlo simulation to estimate b1 and b2.
@@ -131,6 +133,10 @@ class MonteCarloTipsSimulation:
             Bounds for b1 (min, max).
         b2_bounds : tuple
             Bounds for b2 (min, max).
+        order_totals : array-like, optional
+            Order totals to use. If None, uses internally generated data.
+        observed_tips : array-like, optional
+            Observed tips to use. If None, uses internally generated data.
 
         Returns
         -------
@@ -142,9 +148,14 @@ class MonteCarloTipsSimulation:
         if b2_init is None:
             b2_init = self.rng.uniform(0.05, 0.50)
 
+        if order_totals is None:
+            order_totals = self.order_totals
+        if observed_tips is None:
+            observed_tips = self.observed_tips
+
         b1 = b1_init
         b2 = b2_init
-        current_loss = self.calculate_loss(b1, b2, self.order_totals, self.observed_tips)
+        current_loss = self.calculate_loss(b1, b2, order_totals, observed_tips)
 
         b1_samples = [b1]
         b2_samples = [b2]
@@ -159,7 +170,7 @@ class MonteCarloTipsSimulation:
             b1_new = np.clip(b1_new, *b1_bounds)
             b2_new = np.clip(b2_new, *b2_bounds)
 
-            new_loss = self.calculate_loss(b1_new, b2_new, self.order_totals, self.observed_tips)
+            new_loss = self.calculate_loss(b1_new, b2_new, order_totals, observed_tips)
 
             if new_loss < current_loss:
                 b1 = b1_new

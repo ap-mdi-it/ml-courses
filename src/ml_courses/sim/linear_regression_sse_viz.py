@@ -187,60 +187,10 @@ class LinearRegressionSSEVisualizer:
         -------
             Plotly Figure object
         """
-        # Adjust ranges to include starting coordinate if sampling trace is shown
-        adjusted_bias_range = bias_range
-        adjusted_slope_range = slope_range
-
-        if bias_samples is not None and slope_samples is not None:
-            # Ensure surface includes the starting coordinate
-            start_bias, start_slope = bias_samples[0], slope_samples[0]
-
-            if adjusted_bias_range is None:
-                if self.true_bias is not None:
-                    bias_center = self.true_bias
-                    bias_min = min(bias_center - abs(bias_center) * scale_factor, start_bias)
-                    bias_max = max(bias_center + abs(bias_center) * scale_factor, start_bias)
-                    adjusted_bias_range = (bias_min, bias_max)
-                else:
-                    y_mean = np.mean(self.y_data)
-                    bias_min = min(y_mean - abs(y_mean) * scale_factor, start_bias)
-                    bias_max = max(y_mean + abs(y_mean) * scale_factor, start_bias)
-                    adjusted_bias_range = (bias_min, bias_max)
-            else:
-                # Expand existing range if needed
-                adjusted_bias_range = (
-                    min(adjusted_bias_range[0], start_bias),
-                    max(adjusted_bias_range[1], start_bias),
-                )
-
-            if adjusted_slope_range is None:
-                if self.true_slope is not None:
-                    slope_center = self.true_slope
-                    slope_min = min(slope_center - abs(slope_center) * scale_factor, start_slope)
-                    slope_max = max(slope_center + abs(slope_center) * scale_factor, start_slope)
-                    adjusted_slope_range = (slope_min, slope_max)
-                else:
-                    x_range = np.max(self.x_data) - np.min(self.x_data)
-                    y_range = np.max(self.y_data) - np.min(self.y_data)
-                    slope_estimate = y_range / x_range
-                    slope_min = min(
-                        slope_estimate - abs(slope_estimate) * scale_factor, start_slope
-                    )
-                    slope_max = max(
-                        slope_estimate + abs(slope_estimate) * scale_factor, start_slope
-                    )
-                    adjusted_slope_range = (slope_min, slope_max)
-            else:
-                # Expand existing range if needed
-                adjusted_slope_range = (
-                    min(adjusted_slope_range[0], start_slope),
-                    max(adjusted_slope_range[1], start_slope),
-                )
-
         # Calculate SSE surface with adjusted ranges
         bias_mesh, slope_mesh, sse_mesh = self.calculate_sse_surface(
-            bias_range=adjusted_bias_range,
-            slope_range=adjusted_slope_range,
+            bias_range=bias_range,
+            slope_range=slope_range,
             resolution=resolution,
             scale_factor=scale_factor,
         )
