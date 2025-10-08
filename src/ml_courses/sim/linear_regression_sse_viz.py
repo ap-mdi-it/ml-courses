@@ -32,6 +32,7 @@ class LinearRegressionSSEVisualizer:
         y_data: NDArray[np.floating[Any]],
         true_bias: float | None = None,
         true_slope: float | None = None,
+        standardize: bool = False,
     ):
         """
         Initialize the LinearRegressionSSEVisualizer.
@@ -41,11 +42,33 @@ class LinearRegressionSSEVisualizer:
             y_data: Target values (e.g., tip amounts)
             true_bias: True bias parameter (if known)
             true_slope: True slope parameter (if known)
+            scale: Whether to scale the input data to zero mean and unit variance
         """
         self.x_data = np.array(x_data)
         self.y_data = np.array(y_data)
         self.true_bias = true_bias
         self.true_slope = true_slope
+
+        if standardize:
+            self.standardized = True
+
+            # Scale x_data and y_data to zero mean and unit variance
+            self.x_mean = np.mean(self.x_data)
+            self.x_std = np.std(self.x_data)
+            self.y_mean = np.mean(self.y_data)
+            self.y_std = np.std(self.y_data)
+
+            self.x_data = (self.x_data - self.x_mean) / self.x_std
+            self.y_data = (self.y_data - self.y_mean) / self.y_std
+
+            # Adjust true parameters if provided
+            if self.true_bias is not None and self.true_slope is not None:
+                adjusted_true_bias = (
+                    self.true_bias + self.true_slope * self.x_mean - self.y_mean
+                ) / self.y_std
+                adjusted_true_slope = self.true_slope * (self.x_std / self.y_std)
+                self.true_bias = float(adjusted_true_bias)
+                self.true_slope = float(adjusted_true_slope)
 
         # Calculate true SSE if true parameters are provided
         self.true_sse = None
@@ -94,35 +117,27 @@ class LinearRegressionSSEVisualizer:
         """
         # Auto-detect reasonable ranges if not provided, with enhanced ranges for convexity
         if bias_range is None:
-            if self.true_bias is not None:
-                bias_center = self.true_bias
-                bias_range = (
-                    float(bias_center - bias_center * scale_factor),
-                    float(bias_center + bias_center * scale_factor),
-                )
-            else:
-                # Use data-driven heuristic
-                y_mean = np.mean(self.y_data)
-                bias_range = (
-                    float(y_mean - y_mean * scale_factor),
-                    float(y_mean + y_mean * scale_factor),
-                )
+            bias_center = self.true_bias if self.true_bias is not None else np.mean(self.y_data)
+            scope = np.abs(bias_center) * scale_factor
 
         if slope_range is None:
             if self.true_slope is not None:
                 slope_center = self.true_slope
-                slope_range = (
-                    float(slope_center - slope_center * scale_factor),
-                    float(slope_center + slope_center * scale_factor),
-                )
             else:
                 # Use data-driven heuristic
                 x_range = np.max(self.x_data) - np.min(self.x_data)
                 y_range = np.max(self.y_data) - np.min(self.y_data)
-                slope_estimate = y_range / x_range
-                slope_range = (
-                    float(slope_estimate - slope_estimate * scale_factor),
-                    float(slope_estimate + slope_estimate * scale_factor),
+                slope_center = y_range / x_range
+            slope_scope = np.abs(slope_center) * scale_factor
+            scope = max(scope, slope_scope)
+            slope_range = (
+                float(slope_center - scope),
+                float(slope_center + scope),
+            )
+            if bias_range is None:
+                bias_range = (
+                    float(bias_center - scope),
+                    float(bias_center + scope),
                 )
 
         # Create parameter grids
@@ -415,7 +430,8 @@ class LinearRegressionSSEVisualizer:
                 )
             )
 
-        # Surface minimum is always calculated in create_3d_surface_plot before this method is called
+        # Surface minimum is always calculated in create_3d_surface_plot before this method
+        # is called
         assert all(
             x is not None
             for x in [self.surface_min_bias, self.surface_min_slope, self.surface_min_sse]
