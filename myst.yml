@@ -70,6 +70,7 @@ project:
             - file: book/math_foundations/lineaire_regressie/gradient.ipynb
             - file: book/math_foundations/lineaire_regressie/closed.ipynb
             - file: book/math_foundations/lineaire_regressie/gradient_descent.ipynb
+            - file: book/math_foundations/lineaire_regressie/multiple.ipynb
         - title: Labo
           children:
             - file: book/math_foundations/labo/python.ipynb
