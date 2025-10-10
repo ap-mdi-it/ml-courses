@@ -46,20 +46,20 @@ Optimaliseert functies die vaak gebruikt worden bij machine learning analytisch 
 ## Programma
 | Week  | Datum | Onderdeel | Labo |
 |-------|-------|----------|----------|
-| 1     | 19/09 |   Lineaire algebra #1   |   Vectoren, Matrices & Tensors   |
-| 2     | 26/09 |   Lineaire algebra #2   |   Dot products, Speciale tensors & Stelsels van lineaire vergelijkingen  |
-| 3     | 03/10 |   Gradients    |   OLS & Gradient Descent   |
-| 4     | 10/10 |   Likelihood   |   Maximum Likelihood Estimation   |
-| 5     | 17/10 |   Bayes   | Bayesian Linear Regression     |
-| 6     | 24/10 |   Singular Value Decomposition   |  Principal Components Analysis   |
+| 1     | 19/09 |   Lineaire algebra #1   |   Vectoren, matrices & tensors   |
+| 2     | 26/09 |   Lineaire algebra #2   |   Dot products, speciale tensors & stelsels van lineaire vergelijkingen   |
+| 3     | 03/10 |   Gradients #1    |   OLS & gradient descent voor lineaire Regressie   |
+| 4     | 10/10 |   Gradients #2   |   Gradient descent voor logistische regressie   |
+| 5     | 17/10 |   Gradients #3   |   Backpropagation   |
+| 6     | 24/10 |   Probabiliteit #1   |   Kansvariabelen en -verdelingen   |
 | Herfstvakantie
-| 7     | 07/11 |   Neurale Netwerken #1   |      |
-| 8     | 14/11 |   Neurale Netwerken #2   |      |
-| 9     | 21/11 |   Random Forests   |      |
-| 10    | 28/11 |   Gradient Boosted Trees   |      |
-| 11    | 05/12 |   SVM Kernel Machines |      |
-| 12    | 12/12 |   Markov Decision Processes   |      |
-| 13    | 19/12 |   Voorbereiding examen   |  Voorbereiding examen   |
+| 7     | 07/11 |   Probabiliteit #2   |   Bayesiaanse aanpak van lineaire regressie   |
+| 8     | 14/11 |   Probabiliteit #3   |   Causaliteit   |
+| 9     | 21/11 |   Datacompressie #1   |   Singular value decomposition   |
+| 10    | 28/11 |   Datacompressie #2   |   PCA & t-SNE   |
+| 11    | 05/12 |   Datacompressie #3 |   Embeddings & vector similarity   |
+| 12    | 12/12 |   Presentaties   |      |
+| 13    | 19/12 |   Voorbereiding examen   |      |
 
 ## Evaluatie
 |   |   |   |

@@ -64,20 +64,20 @@ We leggen de nadruk op praktische vaardigheden zoals het omgaan met datasets, he
 ## Programma
 | Week  | Datum | Onderdeel | Labo |
 |-------|-------|-----------|----------|
-| 1     | 16/09 | ML basisconcepten #1 | Setup |
-| 2     | 23/09 | ML basisconcepten #2 | Uber: Data-Exploratie met Pandas en Plotly  |
-| 3     | 30/09 | ML voor gestructureerde data  | Airbnb: prijsvoorspellingen met XGBoost |
-| 4     | 07/10 | ML voor computer vision | TACO: Zwerfvuildetectie |
-| 5     | 14/10 | ML voor computer graphics | Nieuwe vlinders met een _diffusion_ model |
-| 6     | 21/10 | ML voor chatbots | _Retrieval Augmented Generation_ |
+| 1     | 16/09 | Basisprincipes #1 | Setup |
+| 2     | 23/09 | Basisprincipes #2 | Uber: Data-Exploratie met Pandas en Plotly  |
+| 3     | 30/09 | Toepassingsgebied: gestructureerde data  | Airbnb: prijsvoorspellingen met XGBoost |
+| 4     | 07/10 | Toepassingsgebied: beeldanalyse | TACO: Zwerfvuildetectie |
+| 5     | 14/10 | Toepassingsgebied: beeldgeneratie | Nieuwe vlinders met een _diffusion_ model |
+| 6     | 21/10 | Toepassingsgebied: natuurlijke taal | Chatbot |
 | Herfstvakantie
-| 7     | 04/11 | ML voor tijdreekspredicties | Voorspellen van energieverbruik met (Neural)Prophet |
+| 7     | 04/11 | Toepassingsgebied: tijdreeksdata | Voorspellen van energieverbruik met (Neural)Prophet |
 | Wapenstilstand
-| 8     | 18/11 | ML voor netwerkpredicties | Amazon: _Recommender_ systeem met _graph neural networks_ |
-| 9     | 25/11 | ML voor spatiale predicties | Uber: Voorspelling van annuleringen met spatiale features |
-| 10    | 02/12 | Causal & Explainable AI | DoWhy, SHAP & LIME |
-| 11    | 09/12 | Autonome Agents | Mario-agent |
-| 12    | 16/12 | Voorbereiding examen | Voorbereiding examen|
+| 8     | 18/11 | Toepassingsgebied: netwerkdata | Amazon: _Recommender_ systeem met _graph neural networks_ |
+| 9     | 25/11 | Toepassingsgebied: geografische data | Uber: Voorspelling van annuleringen met geografische features |
+| 10    | 02/12 | Toepassingsgebied: autonome agents | Mario-agent |
+| 11    | 09/12 | Presentaties |  |
+| 12    | 16/12 | Voorbereiding examen |  |
 | Kerstvakantie
 
 ## Evaluatie
