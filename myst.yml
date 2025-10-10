@@ -83,9 +83,9 @@ site:
     favicon: img/AP_favicon.ico
     logo: img/AP_logo_letters_rgb_sq.png
     logo_url: https://www.ap.be
-  nav:
-    - title: ECTS
-      url: https://ects.ap.be
+  # nav:
+    # - title: ECTS
+    #   url: https://ects.ap.be
   parts:
     footer: |
       kevin.diependaele@ap.be
