@@ -27,6 +27,7 @@
                 "ms-python.mypy-type-checker",
                 "ms-python.python",
                 "ms-toolsai.jupyter",
+                "ms-toolsai.vscode-jupyter-cell-tags",
                 "ryanluker.vscode-coverage-gutters",
                 "saoudrizwan.claude-dev",
                 "streetsidesoftware.code-spell-checker",
