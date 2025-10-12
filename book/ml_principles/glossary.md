@@ -5,6 +5,9 @@
 - {ref}`modelcomplexiteit <target-parameters>`
 - {ref}`features <target-features>`
 - {ref}`feature engineering <target-feature-engineering>`
+- {ref}`meetschaal <target-measuring-scales>`
+- {ref}`missing values <target-missing-values>`
+- {ref}`over fitting <target-over-fitting>`
 - {ref}`model training <target-training>`
 - {ref}`model inference <target-inference>`
 - {ref}`leeralgoritme <target-learning-algorithm>`
@@ -12,6 +15,10 @@
 - {ref}`loss functie <target-loss>`
 - {ref}`online leeralgoritme <target-online-algorithm>`
 - {ref}`batch leeralgoritme <target-batch-algorithm>`
+- {ref}`ongebalanceerde trainingsdata <target-imbalance>`
+- {ref}`statistische bias <target-imbalance>`
+- {ref}`under sampling <target-under-sampling>`
+- {ref}`over sampling <target-over-sampling>`
 - {ref}`klassificatie <target-classification>`
 - {ref}`regressie <target-regression>`
 - {ref}`transcriptie <target-transcription>`
@@ -31,5 +38,15 @@
 - {ref}`validatiedata <target-validation>`
 - {ref}`testdata <target-validation>`
 - {ref}`generalisatie <target-validation>`
+- {ref}`explainability <target-explainability>`
 - {ref}`machine learning flow <target-mlflow>`
 - {ref}`MLOps <target-mlops>`
+- {ref}`gestructureerde data <target-structured-data>`
+- {ref}`semi-gestructureerde data <target-semi-structured-data>`
+- {ref}`ongestructureerde data <target-unstructured-data>`
+- {ref}`decision tree <target-decision-tree>`
+- {ref}`greedy learning <target-greedy-learning>`
+- {ref}`random forests <target-random-forests>`
+- {ref}`ensemble leren <target-random-forests>`
+- {ref}`bootstrap sampling <target-bootstrap-sampling>`
+- {ref}`boosting <target-boosting>`
