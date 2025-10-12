@@ -1,0 +1,35 @@
+- {ref}`machine learning <target-ml>`
+- {ref}`model <target-model>`
+- {ref}`modelkeuze <target-model-selection>`
+- {ref}`parameters <target-parameters>`
+- {ref}`modelcomplexiteit <target-parameters>`
+- {ref}`features <target-features>`
+- {ref}`feature engineering <target-feature-engineering>`
+- {ref}`model training <target-training>`
+- {ref}`model inference <target-inference>`
+- {ref}`leeralgoritme <target-learning-algorithm>`
+- {ref}`hyper-parameters <target-hyper-parameters>`
+- {ref}`loss functie <target-loss>`
+- {ref}`online leeralgoritme <target-online-algorithm>`
+- {ref}`batch leeralgoritme <target-batch-algorithm>`
+- {ref}`klassificatie <target-classification>`
+- {ref}`regressie <target-regression>`
+- {ref}`transcriptie <target-transcription>`
+- {ref}`automatische vertaling <target-translation>`
+- {ref}`clustering <target-clustering>`
+- {ref}`dimensionaliteitsreductie <target-dimensionality-reduction>`
+- {ref}`anomaliedetectie <target-anomaly>`
+- {ref}`generatie <target-generation>`
+- {ref}`actieplanning <target-planning>`
+- {ref}`supervised learning <target-supervised-learning>`
+- {ref}`unsupervised learning <target-unsupervised-learning>`
+- {ref}`reinforcement learning <target-reinforcement-learning>`
+- {ref}`data-annotatie <target-annotation>`
+- {ref}`model-performantie <target-evaluation>`
+- {ref}`modelevaluatie <target-evaluation>`
+- {ref}`scoring metrics <target-evaluation>`
+- {ref}`validatiedata <target-validation>`
+- {ref}`testdata <target-validation>`
+- {ref}`generalisatie <target-validation>`
+- {ref}`machine learning flow <target-mlflow>`
+- {ref}`MLOps <target-mlops>`
