@@ -33,3 +33,6 @@
 - {ref}`generalisatie <target-validation>`
 - {ref}`machine learning flow <target-mlflow>`
 - {ref}`MLOps <target-mlops>`
+- {ref}`gestructureerde data <target-structured-data>`
+- {ref}`semi-gestructureerde data <target-semi-structured-data>`
+- {ref}`ongestructureerde data <target-unstructured-data>`
