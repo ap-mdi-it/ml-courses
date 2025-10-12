@@ -36,13 +36,7 @@ project:
             - file: book/ml_principles/basis/inference.ipynb
             - file: book/ml_principles/basis/mlflow.ipynb
             - file: book/ml_principles/basis/structure.ipynb
-        - title: ML voor gestructureerde data
-          children:
-            - file: book/ml_principles/structured/intro.ipynb
-            - file: book/ml_principles/structured/trees.ipynb
-            - file: book/ml_principles/structured/forests.ipynb
-            - file: book/ml_principles/structured/boosting.ipynb
-            - file: book/ml_principles/structured/automl.ipynb
+        - file: book/ml_principles/structured/trees.ipynb
         - title: ML voor computer vision
           children:
             - file: book/ml_principles/vision/intro.ipynb
