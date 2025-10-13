@@ -38,11 +38,7 @@ project:
             - file: book/ml_principles/basics/mlflow.ipynb
             - file: book/ml_principles/basics/structure.ipynb
         - file: book/ml_principles/structured/trees.ipynb
-        - title: ML voor computer vision
-          children:
-            - file: book/ml_principles/vision/intro.ipynb
-            - file: book/ml_principles/vision/cnns.ipynb
-            - file: book/ml_principles/vision/vit.ipynb
+        - file: book/ml_principles/vision/imgrec.ipynb
         - title: Labo
           children:
             - file: book/ml_principles/labo/uber#1.ipynb

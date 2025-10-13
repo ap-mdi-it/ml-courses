@@ -45,8 +45,19 @@
 - {ref}`semi-gestructureerde data <target-semi-structured-data>`
 - {ref}`ongestructureerde data <target-unstructured-data>`
 - {ref}`decision tree <target-decision-tree>`
+- {ref}`decision tree parameters <target-decision-tree-parameters>`
+- {ref}`decision tree features <target-decision-tree-features>`
 - {ref}`greedy learning <target-greedy-learning>`
 - {ref}`random forests <target-random-forests>`
 - {ref}`ensemble leren <target-random-forests>`
 - {ref}`bootstrap sampling <target-bootstrap-sampling>`
 - {ref}`boosting <target-boosting>`
+- {ref}`computer vision <target-computer-vision>`
+- {ref}`Convolutionele Neurale Netwerken <target-cnns>`
+- {ref}`CNN parameters <target-cnn-parameters>`
+- {ref}`CNN features <target-cnn-features>`
+- {ref}`beeld-kanalen/_channels_ <target-image-channels>`
+- {ref}`beeldannotatie <target-image-annotation>`
+- {ref}`transfer learning <target-transfer-learning>`
+- {ref}`fine tuning <target-transfer-learning>`
+- {ref}`self-supervision <target-self-supervision>`
