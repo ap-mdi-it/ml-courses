@@ -56,7 +56,7 @@
 - {ref}`Convolutionele Neurale Netwerken <target-cnns>`
 - {ref}`CNN parameters <target-cnn-parameters>`
 - {ref}`CNN features <target-cnn-features>`
-- {ref}`beeld-kanalen/_channels_ <target-image-channels>`
+- {ref}`beeld-kanalen/channels <target-image-channels>`
 - {ref}`beeldannotatie <target-image-annotation>`
 - {ref}`transfer learning <target-transfer-learning>`
 - {ref}`fine tuning <target-transfer-learning>`
