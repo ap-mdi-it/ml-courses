@@ -1,3 +1,6 @@
+# Glossary
+
+## [Tensors](linalg/tensors.ipynb)
 - [scalair](linalg/tensors.ipynb#scalairen)
 - [vector](linalg/tensors.ipynb#vectoren)
 - [matrix](linalg/tensors.ipynb#matrices)
@@ -5,10 +8,14 @@
 - [kolom-vector](linalg/tensors.ipynb#matrices)
 - [transpositie](linalg/tensors.ipynb#matrices)
 - [tensor](linalg/tensors.ipynb#tensors)
+
+## [Basis operaties](linalg/basis_ops.ipynb)
 - [scalair optellen](linalg/basis_ops.ipynb#scalair-optellen)
 - [scalaire vermenigvuldiging](linalg/basis_ops.ipynb#scalaire-vermenigvuldiging)
 - [tensors optellen](linalg/basis_ops.ipynb#tensors-optellen)
 - [element-gewijs product](linalg/basis_ops.ipynb#element-gewijs-product)
+
+## [Waarom tensors?](linalg/why_tensors.ipynb)
 - [feature matrix](linalg/why_tensors.ipynb#feature-matrix-voor-tabelgegevens)
 - [meetschaal](linalg/why_tensors.ipynb#meetschaal)
 - [nominaal](linalg/why_tensors.ipynb#meetschaal)
@@ -24,11 +31,15 @@
 - [schaling](linalg/why_tensors.ipynb#data-translatie-schaling-reflectie-en-rotatie)
 - [reflectie](linalg/why_tensors.ipynb#data-translatie-schaling-reflectie-en-rotatie)
 - [rotatie](linalg/why_tensors.ipynb#data-translatie-schaling-reflectie-en-rotatie)
+
+## [Dot product](linalg/dot_prod.ipynb)
 - [dot product](linalg/dot_prod.ipynb#dot-product)
 - [inner product](linalg/dot_prod.ipynb#dot-product)
 - [norm](linalg/dot_prod.ipynb#euclidische-norm)
 - [euclidische norm](linalg/dot_prod.ipynb#euclidische-norm)
 - [cosine similarity](linalg/dot_prod.ipynb#cosine-similarity)
+
+## [Speciale tensors](linalg/special_tensors.ipynb)
 - [vierkante matrix](linalg/special_tensors.ipynb#vierkante-matrix)
 - [diagonale matrix](linalg/special_tensors.ipynb#diagonale-matrix)
 - [identiteitsmatrix](linalg/special_tensors.ipynb#identiteitsmatrix)
@@ -36,8 +47,12 @@
 - [upper triangular matrix](linalg/special_tensors.ipynb#upper-triangular-matrix)
 - [lower triangular matrix](linalg/special_tensors.ipynb#lower-triangular-matrix)
 - [rotatie matrix](linalg/special_tensors.ipynb#rotatie-matrix)
+
+## [Matrix inverse](linalg/inverse.ipynb)
 - [matrix inverse](linalg/inverse.ipynb#matrix-inverse)
 - [stelsels van lineaire vergelijkingen](linalg/inverse.ipynb#stelsels-van-lineaire-vergelijkingen)
+
+## [Grid search](lineaire_regressie/grid.ipynb)
 - [lineaire regressie](lineaire_regressie/grid.ipynb#introduction-target)
 - [intercept/bias](lineaire_regressie/grid.ipynb#naming-target)
 - [slope](lineaire_regressie/grid.ipynb#naming-target)
@@ -46,15 +61,23 @@
 - [standaardisatie](lineaire_regressie/grid.ipynb#visualisatie-van-het-sse-oppervlak)
 - [grid search](lineaire_regressie/grid.ipynb#grid-parameter-search)
 - [r-squared](lineaire_regressie/grid.ipynb#grid-parameter-search)
+
+## [Gradiënt](lineaire_regressie/gradient.ipynb)
 - [raak-/tangentlijn](lineaire_regressie/gradient.ipynb)
 - [afgeleide](lineaire_regressie/gradient.ipynb)
 - [partiële afgeleiden](lineaire_regressie/gradient.ipynb#partial-target)
 - [gradiënt](lineaire_regressie/gradient.ipynb#partial-target)
 - [ordinary least squares (OLS)](lineaire_regressie/gradient.ipynb#ols-target)
+
+## [Ordinary Least Squares](lineaire_regressie/ols.ipynb)
 - [multicollineariteit](lineaire_regressie/ols.ipynb#multic-target)
+
+## [Gradient descent](lineaire_regressie/gradient_descent.ipynb)
 - [gradient descent](lineaire_regressie/gradient_descent.ipynb#gradient-descent)
 - [learning rate](lineaire_regressie/gradient_descent.ipynb#gradient-descent)
 - [lokale minima](lineaire_regressie/gradient_descent.ipynb#lokale-minima)
 - [stochastische gradient descent](lineaire_regressie/gradient_descent.ipynb#stochastische-gradient-descent)
+
+## [Generalized Linear Models](lineaire_regressie/glm.ipynb)
 - [logistische regressie](lineaire_regressie/glm.ipynb#logistische-regressie)
 - [binary cross-entropy loss](lineaire_regressie/glm.ipynb#log-loss)
