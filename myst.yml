@@ -15,27 +15,28 @@ project:
       children:
       - title: Lectoren
         children:
-          - file: book/algemeen/lectoren/kevin_diependaele.md
-      - file: book/algemeen/voorbereiding.ipynb
+          - file: book/algemeen/lecturers/kevin_diependaele.md
+      - file: book/algemeen/preparation.ipynb
       - file: book/algemeen/hello_world.ipynb
-      - file: book/algemeen/referenties.md
+      - file: book/algemeen/references.md
     - title: ML Principles
       children:
-        - file: book/ml_principles/introductie.md
-        - file: book/ml_principles/afspraken.md
+        - file: book/ml_principles/introduction.md
+        - file: book/ml_principles/instructions.md
+        - file: book/ml_principles/basics/overview.md
         - title: Basis concepten
           children:
-            - file: book/ml_principles/basis/ml.ipynb
-            - file: book/ml_principles/basis/models.ipynb
-            - file: book/ml_principles/basis/parameters.ipynb
-            - file: book/ml_principles/basis/features.ipynb
-            - file: book/ml_principles/basis/training.ipynb
-            - file: book/ml_principles/basis/tasks.ipynb
-            - file: book/ml_principles/basis/experience.ipynb
-            - file: book/ml_principles/basis/evaluation.ipynb
-            - file: book/ml_principles/basis/inference.ipynb
-            - file: book/ml_principles/basis/mlflow.ipynb
-            - file: book/ml_principles/basis/structure.ipynb
+            - file: book/ml_principles/basics/ml.ipynb
+            - file: book/ml_principles/basics/models.ipynb
+            - file: book/ml_principles/basics/parameters.ipynb
+            - file: book/ml_principles/basics/features.ipynb
+            - file: book/ml_principles/basics/training.ipynb
+            - file: book/ml_principles/basics/tasks.ipynb
+            - file: book/ml_principles/basics/experience.ipynb
+            - file: book/ml_principles/basics/evaluation.ipynb
+            - file: book/ml_principles/basics/inference.ipynb
+            - file: book/ml_principles/basics/mlflow.ipynb
+            - file: book/ml_principles/basics/structure.ipynb
         - file: book/ml_principles/structured/trees.ipynb
         - title: ML voor computer vision
           children:
@@ -50,12 +51,12 @@ project:
         - file: book/ml_principles/glossary.md
     - title: Mathematical Foundations
       children:
-        - file: book/math_foundations/introductie.md
-        - file: book/math_foundations/afspraken.md
+        - file: book/math_foundations/introduction.md
+        - file: book/math_foundations/instructions.md
         - title: Linear algebra
           children:
             - file: book/math_foundations/linalg/tensors.ipynb
-            - file: book/math_foundations/linalg/basis_ops.ipynb
+            - file: book/math_foundations/linalg/basic_ops.ipynb
             - file: book/math_foundations/linalg/why_tensors.ipynb
             - file: book/math_foundations/linalg/dot_prod.ipynb
             - file: book/math_foundations/linalg/special_tensors.ipynb
