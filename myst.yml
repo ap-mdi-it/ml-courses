@@ -39,11 +39,19 @@ project:
             - file: book/ml_principles/basics/structure.ipynb
         - file: book/ml_principles/structured/trees.ipynb
         - file: book/ml_principles/vision/imgrec.ipynb
-        - title: Labo
+        - title: Labo's
           children:
-            - file: book/ml_principles/labo/uber#1.ipynb
-            - file: book/ml_principles/labo/uber#2.ipynb
-            - file: book/ml_principles/labo/airbnb.ipynb
+            - title: Exploratory data analysis
+              children:
+                - file: book/ml_principles/labs/exploratory_uber_a.ipynb
+                - file: book/ml_principles/labs/exploratory_uber_b.ipynb
+            - title: ML voor gestructureerde data
+              children:
+                - file: book/ml_principles/labs/structured_airbnb.ipynb
+            - title: ML voor beeldherkenning
+              children:
+                - file: book/ml_principles/labs/imgrec_taco_explore.ipynb
+                - file: book/ml_principles/labs/imgrec_taco_train.ipynb
         - file: book/ml_principles/glossary.md
     - title: Mathematical Foundations
       children:
@@ -66,12 +74,12 @@ project:
             - file: book/math_foundations/lineaire_regressie/gradient_descent.ipynb
             - file: book/math_foundations/lineaire_regressie/multiple.ipynb
             - file: book/math_foundations/lineaire_regressie/glm.ipynb
-        - title: Labo
+        - title: Labo's
           children:
-            - file: book/math_foundations/labo/python.ipynb
-            - file: book/math_foundations/labo/numpy.ipynb
-            - file: book/math_foundations/labo/linalg.ipynb
-            - file: book/math_foundations/labo/linreg.ipynb
+            - file: book/math_foundations/labs/python.ipynb
+            - file: book/math_foundations/labs/numpy.ipynb
+            - file: book/math_foundations/labs/linalg.ipynb
+            - file: book/math_foundations/labs/linreg.ipynb
         - file: book/math_foundations/glossary.md
 site:
   options:

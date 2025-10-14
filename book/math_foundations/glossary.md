@@ -1,6 +1,6 @@
 # Glossary
 
-## [Tensors](linalg/tensors.ipynb)
+## [Numerieke primitieven](linalg/tensors.ipynb)
 - [scalair](linalg/tensors.ipynb#scalairen)
 - [vector](linalg/tensors.ipynb#vectoren)
 - [matrix](linalg/tensors.ipynb#matrices)
@@ -9,7 +9,7 @@
 - [transpositie](linalg/tensors.ipynb#matrices)
 - [tensor](linalg/tensors.ipynb#tensors)
 
-## [Basis operaties](linalg/basis_ops.ipynb)
+## [Element-gewijze operaties](linalg/basis_ops.ipynb)
 - [scalair optellen](linalg/basis_ops.ipynb#scalair-optellen)
 - [scalaire vermenigvuldiging](linalg/basis_ops.ipynb#scalaire-vermenigvuldiging)
 - [tensors optellen](linalg/basis_ops.ipynb#tensors-optellen)
@@ -39,7 +39,7 @@
 - [euclidische norm](linalg/dot_prod.ipynb#euclidische-norm)
 - [cosine similarity](linalg/dot_prod.ipynb#cosine-similarity)
 
-## [Speciale tensors](linalg/special_tensors.ipynb)
+## [Speciale matrices](linalg/special_tensors.ipynb)
 - [vierkante matrix](linalg/special_tensors.ipynb#vierkante-matrix)
 - [diagonale matrix](linalg/special_tensors.ipynb#diagonale-matrix)
 - [identiteitsmatrix](linalg/special_tensors.ipynb#identiteitsmatrix)
@@ -52,7 +52,7 @@
 - [matrix inverse](linalg/inverse.ipynb#matrix-inverse)
 - [stelsels van lineaire vergelijkingen](linalg/inverse.ipynb#stelsels-van-lineaire-vergelijkingen)
 
-## [Grid search](lineaire_regressie/grid.ipynb)
+## [Lineaire regressie - Introductie](lineaire_regressie/grid.ipynb)
 - [lineaire regressie](lineaire_regressie/grid.ipynb#introduction-target)
 - [intercept/bias](lineaire_regressie/grid.ipynb#naming-target)
 - [slope](lineaire_regressie/grid.ipynb#naming-target)
@@ -62,14 +62,14 @@
 - [grid search](lineaire_regressie/grid.ipynb#grid-parameter-search)
 - [r-squared](lineaire_regressie/grid.ipynb#grid-parameter-search)
 
-## [Gradiënt](lineaire_regressie/gradient.ipynb)
+## [SSE gradiënt](lineaire_regressie/gradient.ipynb)
 - [raak-/tangentlijn](lineaire_regressie/gradient.ipynb)
 - [afgeleide](lineaire_regressie/gradient.ipynb)
 - [partiële afgeleiden](lineaire_regressie/gradient.ipynb#partial-target)
 - [gradiënt](lineaire_regressie/gradient.ipynb#partial-target)
 - [ordinary least squares (OLS)](lineaire_regressie/gradient.ipynb#ols-target)
 
-## [Ordinary Least Squares](lineaire_regressie/ols.ipynb)
+## [Ordinary least squares](lineaire_regressie/ols.ipynb)
 - [multicollineariteit](lineaire_regressie/ols.ipynb#multic-target)
 
 ## [Gradient descent](lineaire_regressie/gradient_descent.ipynb)
@@ -78,6 +78,6 @@
 - [lokale minima](lineaire_regressie/gradient_descent.ipynb#lokale-minima)
 - [stochastische gradient descent](lineaire_regressie/gradient_descent.ipynb#stochastische-gradient-descent)
 
-## [Generalized Linear Models](lineaire_regressie/glm.ipynb)
+## [Generalized linear models](lineaire_regressie/glm.ipynb)
 - [logistische regressie](lineaire_regressie/glm.ipynb#logistische-regressie)
 - [binary cross-entropy loss](lineaire_regressie/glm.ipynb#log-loss)
