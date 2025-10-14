@@ -39,7 +39,7 @@ Neem nota's tijdens de les!
 ## Opdracht
 In je opdracht ga je zelf een (mini-)use-case documenteren rond een bestaande vraag, een bestaande dataset en bestaande analyse. Die use-case kies je zelf, maar stem je eerst af met de lector.
 Je levert een (serie) werkende (!) notebook(s) af met daarin minimaal volgende secties:
-- Vraagstelling
+- Vraag-/probleemstelling
 - Dataset: bron, omschrijving en exploratieve analyse in functie van de vraagstelling
 - Model type: Waarom de keuze voor het specifieke paradigma?
 - Model definitie (parameters, feature engineering, hyper parameters)
