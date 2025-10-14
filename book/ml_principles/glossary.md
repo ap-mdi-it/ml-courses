@@ -18,7 +18,7 @@
 - {ref}`meetschaal <target-measuring-scales>`
 - {ref}`missing values <target-missing-values>`
 
-## [Model training](basics/training.ipynb)
+## [Training](basics/training.ipynb)
 - {ref}`model training <target-training>`
 - {ref}`model inference <target-inference>`
 - {ref}`leeralgoritme <target-learning-algorithm>`
@@ -31,7 +31,7 @@
 - {ref}`under sampling <target-under-sampling>`
 - {ref}`over sampling <target-over-sampling>`
 
-## [Tasks](basics/tasks.ipynb)
+## [Taken](basics/tasks.ipynb)
 - {ref}`klassificatie <target-classification>`
 - {ref}`regressie <target-regression>`
 - {ref}`transcriptie <target-transcription>`
@@ -42,13 +42,13 @@
 - {ref}`generatie <target-generation>`
 - {ref}`actieplanning <target-planning>`
 
-## [Experience](basics/experience.ipynb)
+## [Ervaring](basics/experience.ipynb)
 - {ref}`supervised learning <target-supervised-learning>`
 - {ref}`data-annotatie <target-annotation>`
 - {ref}`unsupervised learning <target-unsupervised-learning>`
 - {ref}`reinforcement learning <target-reinforcement-learning>`
 
-## [Evaluation](basics/evaluation.ipynb)
+## [Evaluatie](basics/evaluation.ipynb)
 - {ref}`model-performantie <target-evaluation>`
 - {ref}`modelevaluatie <target-evaluation>`
 - {ref}`scoring metrics <target-evaluation>`
@@ -61,19 +61,19 @@
 - {ref}`machine learning flow <target-mlflow>`
 - {ref}`MLOps <target-mlops>`
 
-## [Data Structure](basics/structure.ipynb)
+## [Datastructuur](basics/structure.ipynb)
 - {ref}`gestructureerde data <target-structured-data>`
 - {ref}`semi-gestructureerde data <target-semi-structured-data>`
 - {ref}`ongestructureerde data <target-unstructured-data>`
 
-## [Decision Trees](structured/trees.ipynb)
+## [ML voor gestructureerde data](structured/trees.ipynb)
 - {ref}`decision tree <target-decision-tree>`
 - {ref}`greedy learning <target-greedy-learning>`
 - {ref}`random forests <target-random-forests>`
 - {ref}`ensemble leren <target-random-forests>`
 - {ref}`boosting <target-boosting>`
 
-## [Image Recognition](vision/imgrec.ipynb)
+## [ML voor beeldherkenning](vision/imgrec.ipynb)
 - {ref}`computer vision <target-computer-vision>`
 - {ref}`Convolutionele Neurale Netwerken <target-cnns>`
 - {ref}`beeldannotatie <target-image-annotation>`
