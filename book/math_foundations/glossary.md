@@ -23,17 +23,15 @@
 - {ref}`interval <target-interval>`
 - {ref}`ratio <target-ratio>`
 - {ref}`cyclische informatie <target-cyclic-information>`
-- {ref}`translatie <target-translation>`
+- {ref}`translatie <target-geo-translation>`
 - {ref}`schaling <target-scaling>`
 - {ref}`reflectie <target-reflection>`
 - {ref}`rotatie <target-rotation>`
 
 ## [Dot product](linalg/dot_prod.ipynb)
 - {ref}`dot product <target-dot-product>`
-- {ref}`inner product <target-inner-product>`
 - {ref}`norm <target-norm>`
 - {ref}`euclidische norm <target-euclidean-norm>`
-- {ref}`cosine similarity <target-cosine-similarity>`
 
 ## [Speciale matrices](linalg/special_tensors.ipynb)
 - {ref}`vierkante matrix <target-square-matrix>`
@@ -42,21 +40,17 @@
 - {ref}`symmetrische matrix <target-symmetric-matrix>`
 - {ref}`upper triangular matrix <target-upper-triangular-matrix>`
 - {ref}`lower triangular matrix <target-lower-triangular-matrix>`
-- {ref}`rotatie matrix <target-rotation-matrix>`
 
 ## [Matrix inverse](linalg/inverse.ipynb)
 - {ref}`matrix inverse <target-matrix-inverse>`
-- {ref}`stelsels van lineaire vergelijkingen <target-linear-systems>`
 
 ## [Lineaire regressie - Introductie](lineaire_regressie/grid.ipynb)
 - {ref}`lineaire regressie <target-linear-regression>`
-- {ref}`intercept/bias <target-intercept-bias>`
-- {ref}`slope <target-slope>`
 - {ref}`sum of squared errors <target-sse>`
 - {ref}`standaardafwijking <target-standard-deviation>`
 - {ref}`standaardisatie <target-standardization>`
 - {ref}`grid search <target-grid-search>`
-- {ref}`r-squared <target-r-squared>`
+- {ref}`r-squared <target-r2>`
 
 ## [SSE gradiënt](lineaire_regressie/gradient.ipynb)
 - {ref}`raak-/tangentlijn <target-tangent-line>`
