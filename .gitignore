@@ -72,3 +72,6 @@ _build
 
 # markdown sandbox
 book/tmp/
+
+# notebook copies
+* copy.ipynb

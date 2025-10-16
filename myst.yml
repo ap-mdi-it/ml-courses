@@ -67,13 +67,16 @@ project:
             - file: book/math_foundations/linalg/inverse.ipynb
         - title: Lineaire regressie
           children:
-            - file: book/math_foundations/lineaire_regressie/grid.ipynb
-            - file: book/math_foundations/lineaire_regressie/monte_carlo.ipynb
-            - file: book/math_foundations/lineaire_regressie/gradient.ipynb
-            - file: book/math_foundations/lineaire_regressie/ols.ipynb
-            - file: book/math_foundations/lineaire_regressie/gradient_descent.ipynb
-            - file: book/math_foundations/lineaire_regressie/multiple.ipynb
-            - file: book/math_foundations/lineaire_regressie/glm.ipynb
+            - file: book/math_foundations/linear_regression/grid.ipynb
+            - file: book/math_foundations/linear_regression/monte_carlo.ipynb
+            - file: book/math_foundations/linear_regression/gradient.ipynb
+            - file: book/math_foundations/linear_regression/ols.ipynb
+            - file: book/math_foundations/linear_regression/gradient_descent.ipynb
+            - file: book/math_foundations/linear_regression/multiple.ipynb
+            - file: book/math_foundations/linear_regression/glm.ipynb
+        - title: Neurale netwerken
+          children:
+            - file: book/math_foundations/nn/perceptron.ipynb
         - title: Labo's
           children:
             - file: book/math_foundations/labs/python.ipynb
