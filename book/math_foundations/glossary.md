@@ -77,5 +77,8 @@
 - {ref}`perceptron <target-perceptron>`
 - {ref}`activatiefunctie <target-activation>`
 - {ref}`linear scheidbaar <target-linear-separable>`
-- _{ref}`multi-layer perceptron <target-mlp>`_
-- _{ref}`feed forward network <target-mlp>`_
+
+## [Backpropagation](nn/backprop.ipynb)
+- {ref}`multi-layer perceptron <target-mlp>`
+- {ref}`hidden layer <target-mlp>`
+- {ref}`back propagation <target-back-propagation>`
