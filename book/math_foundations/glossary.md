@@ -69,5 +69,13 @@
 - {ref}`stochastische gradient descent <target-stochastic-gradient-descent>`
 
 ## [Generalized linear models](lineaire_regressie/glm.ipynb)
+- {ref}`generalized linear model <target-glm>`
 - {ref}`logistische regressie <target-logistic-regression>`
 - {ref}`binary cross-entropy loss <target-binary-cross-entropy-loss>`
+
+## [Perceptron](nn/perceptron.ipynb)
+- {ref}`perceptron <target-perceptron>`
+- {ref}`activatiefunctie <target-activation>`
+- {ref}`linear scheidbaar <target-linear-separable>`
+- _{ref}`multi-layer perceptron <target-mlp>`_
+- _{ref}`feed forward network <target-mlp>`_

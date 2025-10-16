@@ -74,6 +74,9 @@ project:
             - file: book/math_foundations/linear_regression/gradient_descent.ipynb
             - file: book/math_foundations/linear_regression/multiple.ipynb
             - file: book/math_foundations/linear_regression/glm.ipynb
+        - title: Neurale netwerken
+          children:
+            - file: book/math_foundations/nn/perceptron.ipynb
         - title: Labo's
           children:
             - file: book/math_foundations/labs/python.ipynb
