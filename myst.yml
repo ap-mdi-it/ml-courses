@@ -57,6 +57,7 @@ project:
       children:
         - file: book/math_foundations/introduction.md
         - file: book/math_foundations/instructions.md
+        - file: book/math_foundations/mmap.md
         - title: Linear algebra
           children:
             - file: book/math_foundations/linalg/tensors.ipynb
