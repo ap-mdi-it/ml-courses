@@ -47,6 +47,7 @@
 ## [Lineaire regressie - Introductie](lineaire_regressie/grid.ipynb)
 - {ref}`lineaire regressie <target-linear-regression>`
 - {ref}`sum of squared errors <target-sse>`
+- {ref}`mean squared errors <target-mse>`
 - {ref}`standaardafwijking <target-standard-deviation>`
 - {ref}`standaardisatie <target-standardization>`
 - {ref}`grid search <target-grid-search>`
