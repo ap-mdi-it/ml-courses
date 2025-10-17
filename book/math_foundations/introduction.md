@@ -66,4 +66,4 @@ Optimaliseert functies die vaak gebruikt worden bij machine learning analytisch 
 |---|---|---|
 | 20% | Permanente Evaluatie | Zie "Opdracht" sectie in de "Afspraken" pagina  |
 | 40% | Kennistoets | Gesloten boek, Leerstof: Cursus (online), Eigen notities, Labo' - Zie "Leerstof" sectie in de "Afspraken" pagina |
-| 40% | Vaardigheidstoets | Oefeningen in Jupyter notebook, Gesloten boek (Python documentatie toegelaten) |
+| 40% | Vaardigheidstoets | Oefeningen in Jupyter notebook, Open boek |
