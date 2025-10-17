@@ -84,6 +84,7 @@ project:
             - file: book/math_foundations/labs/numpy.ipynb
             - file: book/math_foundations/labs/linalg.ipynb
             - file: book/math_foundations/labs/linreg.ipynb
+            - file: book/math_foundations/labs/glm.ipynb
         - file: book/math_foundations/glossary.md
 site:
   options:
