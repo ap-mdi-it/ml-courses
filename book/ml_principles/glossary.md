@@ -44,6 +44,7 @@
 
 ## [Ervaring](basics/experience.ipynb)
 - {ref}`supervised learning <target-supervised-learning>`
+- {ref}`self-supervised learning <target-self-supervised-learning>`
 - {ref}`data-annotatie <target-annotation>`
 - {ref}`unsupervised learning <target-unsupervised-learning>`
 - {ref}`reinforcement learning <target-reinforcement-learning>`
@@ -80,3 +81,9 @@
 - {ref}`transfer learning <target-transfer-learning>`
 - {ref}`fine tuning <target-transfer-learning>`
 - {ref}`self-supervision <target-self-supervision>`
+
+## [ML voor taalverwerking](series/nlp.ipynb)
+- {ref}`NLP <target-nlp>`
+- {ref}`tokenization <target-tokenization>`
+- {ref}`transformers <target-transformers>`
+- {ref}`hallucinaties <target-hallucinations>`
