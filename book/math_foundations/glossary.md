@@ -72,6 +72,7 @@
 ## [Generalized linear models](lineaire_regressie/glm.ipynb)
 - {ref}`generalized linear model <target-glm>`
 - {ref}`logistische regressie <target-logistic-regression>`
+- {ref}`logits <target-logits>`
 - {ref}`binary cross-entropy loss <target-binary-cross-entropy-loss>`
 
 ## [Perceptron](nn/perceptron.ipynb)
@@ -83,3 +84,6 @@
 - {ref}`multi-layer perceptron <target-mlp>`
 - {ref}`hidden layer <target-mlp>`
 - {ref}`back propagation <target-back-propagation>`
+
+## [Multi-class](nn/softmax.ipynb)
+- {ref}`softmax <target-softmax>`

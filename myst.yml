@@ -80,6 +80,7 @@ project:
           children:
             - file: book/math_foundations/nn/perceptron.ipynb
             - file: book/math_foundations/nn/backprop.ipynb
+            - file: book/math_foundations/nn/softmax.ipynb
         - title: Labo's
           children:
             - file: book/math_foundations/labs/python.ipynb
