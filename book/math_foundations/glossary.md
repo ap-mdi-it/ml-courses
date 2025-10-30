@@ -87,3 +87,18 @@
 
 ## [Multi-class](nn/softmax.ipynb)
 - {ref}`softmax <target-softmax>`
+
+## [Kansrekenen](prob/probability.ipynb)
+- {ref}`probabiliteitstheorie <target-probability-theory>`
+- {ref}`statistische analyse <target-statistical-analysis>`
+- {ref}`deterministisch <target-deterministic>`
+- {ref}`stochastisch <target-stochastic>`
+- {ref}`frequentistische probabiliteit <target-bayesian-probability>`
+- {ref}`Bayesiaanse probabiliteit <target-bayesian-probability>`
+- {ref}`probability mass function <target-pmf>`
+- {ref}`complement regel bij kansrekenen <target-prob-complement-rule>`
+- {ref}`som regel bij kansrekenen <target-prob-sum-rule>`
+- {ref}`probability density function <target-pdf>`
+- {ref}`marginale kans <target-marginal-probability>`
+- {ref}`conditionele kans <target-conditional-probability>`
+- {ref}`product regel bij kansrekenen <target-prob-prod-rule>`

@@ -81,6 +81,11 @@ project:
             - file: book/math_foundations/nn/perceptron.ipynb
             - file: book/math_foundations/nn/backprop.ipynb
             - file: book/math_foundations/nn/softmax.ipynb
+        - title: Kansrekenen en Informatie theorie
+          children:
+            - file: book/math_foundations/prob/probability.ipynb
+            # - file: book/math_foundations/prob/information.ipynb
+            # - file: book/math_foundations/prob/bayes.ipynb
         - title: Labo's
           children:
             - file: book/math_foundations/labs/python.ipynb
