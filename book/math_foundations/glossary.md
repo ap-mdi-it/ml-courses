@@ -95,6 +95,9 @@
 - {ref}`stochastisch <target-stochastic>`
 - {ref}`frequentistische probabiliteit <target-bayesian-probability>`
 - {ref}`Bayesiaanse probabiliteit <target-bayesian-probability>`
+- {ref}`Discrete random variabele <target-discrete-random-variable>`
+- {ref}`Continue random variabele <target-continuous-random-variable>`
+- {ref}`kansverdeling <target-probability-distribution>`
 - {ref}`probability mass function <target-pmf>`
 - {ref}`complement regel bij kansrekenen <target-prob-complement-rule>`
 - {ref}`som regel bij kansrekenen <target-prob-sum-rule>`
@@ -102,3 +105,10 @@
 - {ref}`marginale kans <target-marginal-probability>`
 - {ref}`conditionele kans <target-conditional-probability>`
 - {ref}`product regel bij kansrekenen <target-prob-prod-rule>`
+- {ref}`verwachte waarde <target-expectation>`
+- {ref}`mediaan <target-median>`
+- {ref}`mode <target-mode>`
+- {ref}`variantie <target-variance>`
+- {ref}`standaardafwijking <target-std>`
+- {ref}`covariantie <target-covariance>`
+- {ref}`correlatie <target-correlation>`
