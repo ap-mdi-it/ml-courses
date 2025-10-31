@@ -93,7 +93,7 @@
 - {ref}`statistische analyse <target-statistical-analysis>`
 - {ref}`deterministisch <target-deterministic>`
 - {ref}`stochastisch <target-stochastic>`
-- {ref}`frequentistische probabiliteit <target-bayesian-probability>`
+- {ref}`frequentistische probabiliteit <target-frequentist-probability>`
 - {ref}`Bayesiaanse probabiliteit <target-bayesian-probability>`
 - {ref}`Discrete random variabele <target-discrete-random-variable>`
 - {ref}`Continue random variabele <target-continuous-random-variable>`
@@ -110,5 +110,8 @@
 - {ref}`mode <target-mode>`
 - {ref}`variantie <target-variance>`
 - {ref}`standaardafwijking <target-std>`
+- {ref}`percentielen <target-percentiles>`
+- {ref}`interkwartielafstand <target-iqr>`
 - {ref}`covariantie <target-covariance>`
+- {ref}`covariantie-matrix <target-covariance-matrix>`
 - {ref}`correlatie <target-correlation>`
