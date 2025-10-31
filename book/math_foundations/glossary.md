@@ -99,12 +99,12 @@
 - {ref}`Continue random variabele <target-continuous-random-variable>`
 - {ref}`kansverdeling <target-probability-distribution>`
 - {ref}`probability mass function <target-pmf>`
-- {ref}`complement regel bij kansrekenen <target-prob-complement-rule>`
-- {ref}`som regel bij kansrekenen <target-prob-sum-rule>`
+- {ref}`complementregel bij kansrekenen <target-prob-complement-rule>`
+- {ref}`somregel bij kansrekenen <target-prob-sum-rule>`
 - {ref}`probability density function <target-pdf>`
 - {ref}`marginale kans <target-marginal-probability>`
 - {ref}`conditionele kans <target-conditional-probability>`
-- {ref}`product regel bij kansrekenen <target-prob-prod-rule>`
+- {ref}`productregel bij kansrekenen <target-prob-prod-rule>`
 - {ref}`verwachte waarde <target-expectation>`
 - {ref}`mediaan <target-median>`
 - {ref}`mode <target-mode>`
