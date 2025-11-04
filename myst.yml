@@ -53,6 +53,7 @@ project:
               children:
                 - file: book/ml_principles/labs/imgrec_taco_explore.ipynb
                 - file: book/ml_principles/labs/imgrec_taco_train.ipynb
+                - file: book/ml_principles/labs/nlp_nanogpt.ipynb
         - file: book/ml_principles/glossary.md
     - title: ∑ Mathematical Foundations
       children:
