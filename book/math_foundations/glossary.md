@@ -87,3 +87,38 @@
 
 ## [Multi-class](nn/softmax.ipynb)
 - {ref}`softmax <target-softmax>`
+
+## [Kansrekenen](prob/probability.ipynb)
+- {ref}`probabiliteitstheorie <target-probability-theory>`
+- {ref}`statistische analyse <target-statistical-analysis>`
+- {ref}`deterministisch <target-deterministic>`
+- {ref}`stochastisch <target-stochastic>`
+- {ref}`frequentistische probabiliteit <target-frequentist-probability>`
+- {ref}`Bayesiaanse probabiliteit <target-bayesian-probability>`
+- {ref}`Discrete random variabele <target-discrete-random-variable>`
+- {ref}`Continue random variabele <target-continuous-random-variable>`
+- {ref}`kansverdeling <target-probability-distribution>`
+- {ref}`probability mass function <target-pmf>`
+- {ref}`complementregel bij kansrekenen <target-prob-complement-rule>`
+- {ref}`somregel bij kansrekenen <target-prob-sum-rule>`
+- {ref}`probability density function <target-pdf>`
+- {ref}`marginale kans <target-marginal-probability>`
+- {ref}`conditionele kans <target-conditional-probability>`
+- {ref}`productregel bij kansrekenen <target-prob-prod-rule>`
+- {ref}`verwachte waarde <target-expectation>`
+- {ref}`mediaan <target-median>`
+- {ref}`mode <target-mode>`
+- {ref}`variantie <target-variance>`
+- {ref}`standaardafwijking <target-std>`
+- {ref}`percentielen <target-percentiles>`
+- {ref}`interkwartielafstand <target-iqr>`
+- {ref}`covariantie <target-covariance>`
+- {ref}`covariantie-matrix <target-covariance-matrix>`
+- {ref}`correlatie <target-correlation>`
+
+## [Informatietheorie](prob/information.ipynb)
+- {ref}`informatietheorie <target-information-theory>`
+- _{ref}`self_information <target-self-information>`_
+- {ref}`Shannon entropie <target-shannon-entropy>`
+- {ref}`Kullback-Leibler divergentie <target-kl-divergence>`
+- {ref}`cross-entropie <target-cross-entropy>`
