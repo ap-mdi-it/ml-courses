@@ -27,8 +27,8 @@ dependencies = [
     "seaborn>=0.13.2",
     "statsmodels>=0.14.5",
     "timm>=1.0.20",
-    "torch>=2.8.0",
-    "torchvision>=0.23.0",
+    "torch>=2.5.0,<2.6",
+    "torchvision>=0.20.0,<0.21",
     "transformers>=4.57.0",
     "xgboost-cpu>=3.0.5",
 ]
@@ -152,3 +152,16 @@ type = "simple"
 
     [[tool.poe.tasks.test.sequence]]
     cmd = "coverage xml"
+
+[tool.uv.sources]
+torch = [
+  { index = "pytorch-cpu" },
+]
+torchvision = [
+  { index = "pytorch-cpu" },
+]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
