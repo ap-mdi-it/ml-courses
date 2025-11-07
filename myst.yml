@@ -94,6 +94,9 @@ project:
             - file: book/math_foundations/labs/linreg.ipynb
             - file: book/math_foundations/labs/glm.ipynb
             - file: book/math_foundations/labs/backprop.ipynb
+            - file: book/math_foundations/labs/probability-basics.ipynb
+            - file: book/math_foundations/labs/probability-joint.ipynb
+            - file: book/math_foundations/labs/probability-moments.ipynb
         - file: book/math_foundations/glossary.md
 site:
   options:
