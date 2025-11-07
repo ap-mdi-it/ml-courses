@@ -51,13 +51,13 @@ Optimaliseert functies die vaak gebruikt worden bij machine learning analytisch 
 | 3     | 03/10 |   Gradients #1    |   OLS & gradient descent voor lineaire Regressie   |
 | 4     | 10/10 |   Gradients #2   |   Gradient descent voor logistische regressie   |
 | 5     | 17/10 |   Gradients #3   |   Backpropagation   |
-| 6     | 24/10 |   Probabiliteit #1   |   Kansvariabelen en -verdelingen   |
+| 6     | 24/10 |   Gradients #4   |   Backpropagation (Praktijk)   |
 | Herfstvakantie
-| 7     | 07/11 |   Probabiliteit #2   |   Bayesiaanse aanpak van lineaire regressie   |
-| 8     | 14/11 |   Probabiliteit #3   |   Causaliteit   |
-| 9     | 21/11 |   Datacompressie #1   |   Singular value decomposition   |
-| 10    | 28/11 |   Datacompressie #2   |   PCA & t-SNE   |
-| 11    | 05/12 |   Datacompressie #3 |   Embeddings & vector similarity   |
+| 7     | 07/11 |   Probabiliteit #1   |   Kansvariabelen en -verdelingen   |
+| 8     | 14/11 |   Probabiliteit #2   |   Kansvariabelen en -verdelingen   |
+| 9     | 21/11 |   Probabiliteit #3   |   Bayesiaanse aanpak van lineaire regressie   |
+| 10    | 28/11 |   Datacompressie #1   |   PCA & t-SNE   |
+| 11    | 05/12 |   Datacompressie #2 |   Embeddings & vector similarity   |
 | 12    | 12/12 |   Presentaties   |      |
 | 13    | 19/12 |   Voorbereiding examen   |      |
 
