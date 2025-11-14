@@ -40,6 +40,7 @@ project:
         - file: book/ml_principles/structured/trees.ipynb
         - file: book/ml_principles/vision/imgrec.ipynb
         - file: book/ml_principles/series/nlp.ipynb
+        - file: book/ml_principles/vision/imggen.ipynb
         - title: Labo's
           children:
             - title: Exploratory data analysis
