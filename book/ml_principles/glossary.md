@@ -87,3 +87,7 @@
 - {ref}`tokenization <target-tokenization>`
 - {ref}`transformers <target-transformers>`
 - {ref}`hallucinaties <target-hallucinations>`
+
+## [ML voor beeldgeneratie](vision/imggen.ipynb)
+- {ref}`beeldgeneratie <target-image-generation>`
+- {ref}`diffusion models <target-diffusion-models>`
