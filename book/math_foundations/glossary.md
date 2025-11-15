@@ -110,7 +110,6 @@
 - {ref}`mode <target-mode>`
 - {ref}`variantie <target-variance>`
 - {ref}`standaardafwijking <target-std>`
-- {ref}`percentielen <target-percentiles>`
 - {ref}`interkwartielafstand <target-iqr>`
 - {ref}`covariantie <target-covariance>`
 - {ref}`covariantie-matrix <target-covariance-matrix>`
@@ -120,5 +119,4 @@
 - {ref}`informatietheorie <target-information-theory>`
 - _{ref}`self_information <target-self-information>`_
 - {ref}`Shannon entropie <target-shannon-entropy>`
-- {ref}`Kullback-Leibler divergentie <target-kl-divergence>`
 - {ref}`cross-entropie <target-cross-entropy>`
