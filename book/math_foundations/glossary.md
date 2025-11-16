@@ -120,3 +120,14 @@
 - _{ref}`self_information <target-self-information>`_
 - {ref}`Shannon entropie <target-shannon-entropy>`
 - {ref}`cross-entropie <target-cross-entropy>`
+
+## [Hypotheses testen](prob/testing.ipynb)
+- _{ref}`hypothesis testing <target-hypothesis-testing>`_
+- {ref}`data drift <target-drift>`
+- {ref}`model drift <target-drift>`
+- {ref}`nulhypothese <target-hypothesis>`
+- {ref}`alternatieve hypothese <target-hypothesis>`
+- {ref}`p-waarde <target-p-value>`
+- {ref}`significantieniveau <target-significance>`
+- {ref}`type I fout <target-error-types>`
+- {ref}`type II fout <target-error-types>`
