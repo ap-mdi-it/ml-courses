@@ -87,6 +87,8 @@ project:
           children:
             - file: book/math_foundations/prob/probability.ipynb
             - file: book/math_foundations/prob/information.ipynb
+            - file: book/math_foundations/prob/testing.ipynb
+            - file: book/math_foundations/prob/likelihood.ipynb
         - title: Labo's
           children:
             - file: book/math_foundations/labs/python.ipynb
@@ -98,6 +100,8 @@ project:
             - file: book/math_foundations/labs/probability-basics.ipynb
             - file: book/math_foundations/labs/probability-joint.ipynb
             - file: book/math_foundations/labs/probability-moments.ipynb
+            - file: book/math_foundations/labs/probability-testing.ipynb
+            - file: book/math_foundations/labs/probability-likelihood.ipynb
         - file: book/math_foundations/glossary.md
 site:
   options:
