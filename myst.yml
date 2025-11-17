@@ -88,6 +88,7 @@ project:
             - file: book/math_foundations/prob/probability.ipynb
             - file: book/math_foundations/prob/information.ipynb
             - file: book/math_foundations/prob/testing.ipynb
+            - file: book/math_foundations/prob/likelihood.ipynb
         - title: Labo's
           children:
             - file: book/math_foundations/labs/python.ipynb
