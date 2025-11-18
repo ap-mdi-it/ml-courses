@@ -90,7 +90,6 @@
 
 ## [Kansrekenen](prob/probability.ipynb)
 - {ref}`probabiliteitstheorie <target-probability-theory>`
-- {ref}`statistische analyse <target-statistical-analysis>`
 - {ref}`deterministisch <target-deterministic>`
 - {ref}`stochastisch <target-stochastic>`
 - {ref}`frequentistische probabiliteit <target-frequentist-probability>`
@@ -138,7 +137,7 @@
 - _{ref}`two sample t-test <target-two-sample-t>`_
 - {ref}`binomiaaltest <target-binomial-test>`
 
-##
+## [Likelihood](prob/likelihood.ipynb)
 - {ref}`likelihood function <target-likelihood-function>`
 - {ref}`standaardfout van parameters <target-standard-error>`
 - {ref}`betrouwbaarheidsinterval <target-confidence-interval>`
