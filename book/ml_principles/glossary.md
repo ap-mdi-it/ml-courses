@@ -91,3 +91,20 @@
 ## [ML voor beeldgeneratie](vision/imggen.ipynb)
 - {ref}`beeldgeneratie <target-image-generation>`
 - {ref}`diffusion models <target-diffusion-models>`
+
+## [ML voor actiecontrole](rl/rl_principles.ipynb)
+- _{ref}`reinforcement learning <target-reinforcement-learning>`_
+- _{ref}`agent <target-rl-agent>`_
+- _{ref}`reinforcement learning loop <target-rl-loop>`_
+- {ref}`omgeving <target-rl-env>`
+- _{ref}`state <target-rl-state>`_
+- {ref}`observatie <target-rl-observation>`
+- _{ref}`action space <target-rl-action-space>`_
+- _{ref}`reward <target-rl-reward>`_
+- {ref}`cumulatieve reward of return <target-rl-return>`
+- _{ref}`discounting <target-rl-discounting>`_
+- _{ref}`value functie <target-rl-value-function>`_
+- _{ref}`policy <target-rl-policy>`_
+- _{ref}`Q-learning <target-rl-q-learning>`_
+- _{ref}`policy gradient learning <target-rl-policy-gradient>`_
+- _{ref}`actor-critic learning <target-rl-actor-critic>`_
