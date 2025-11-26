@@ -106,7 +106,7 @@
 - _{ref}`value functie <target-rl-value-function>`_
 - _{ref}`policy <target-rl-policy>`_
 - _{ref}`model-free RL <target-rl-model-free>`_
-- _{ref}`policy-based RL <target-rl-policy-based>`_
+- _{ref}`policy-based RL <target-rl-value-based>`_
 - _{ref}`value-based RL <target-rl-value-based>`_
 - _{ref}`model-based RL <target-rl-model-based>`_
 - _{ref}`Q-learning <target-rl-q-learning>`_
