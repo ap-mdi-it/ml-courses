@@ -149,4 +149,5 @@
 - _{ref}`posterior probability <target-bayes-posterior>`_
 
 ## [PCA](struct/pca.ipynb)
+- {ref}`principal components analysis <target-pca>`
 - {ref}`eigenvectoren <target-eigenvectors>`
