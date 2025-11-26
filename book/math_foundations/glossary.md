@@ -142,3 +142,8 @@
 - {ref}`standaardfout van parameters <target-standard-error>`
 - {ref}`betrouwbaarheidsinterval <target-confidence-interval>`
 - {ref}`predictie-interval <target-prediction-interval>`
+
+## [Bayes](prob/bayes.ipynb)
+- {ref}`regel van Bayes <target-bayes-rule>`
+- _{ref}`prior probability <target-bayes-prior>`_
+- _{ref}`posterior probability <target-bayes-posterior>`_
