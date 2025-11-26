@@ -147,3 +147,6 @@
 - {ref}`regel van Bayes <target-bayes-rule>`
 - _{ref}`prior probability <target-bayes-prior>`_
 - _{ref}`posterior probability <target-bayes-posterior>`_
+
+## [PCA](struct/pca.ipynb)
+- {ref}`eigenvectoren <target-eigenvectors>`
