@@ -99,6 +99,7 @@ project:
         - title: Structurele analyse
           children:
             - file: book/math_foundations/struct/pca.ipynb
+            - file: book/math_foundations/struct/tSNE.ipynb
         - title: Labo's
           children:
             - file: book/math_foundations/labs/python.ipynb
