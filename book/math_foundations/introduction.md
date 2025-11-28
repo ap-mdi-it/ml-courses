@@ -54,12 +54,12 @@ Optimaliseert functies die vaak gebruikt worden bij machine learning analytisch 
 | 6     | 24/10 |   Gradients #4   |   Backpropagation (Praktijk)   |
 | Herfstvakantie
 | 7     | 07/11 |   Probabiliteit #1   |   Kansvariabelen en -verdelingen   |
-| 8     | 14/11 |   Probabiliteit #2   |   Kansvariabelen en -verdelingen   |
+| 8     | 14/11 |   Probabiliteit #2   |   Hypothese testen en Likelihood   |
 | 9     | 21/11 |   Probabiliteit #3   |   Bayesiaanse aanpak van lineaire regressie   |
-| 10    | 28/11 |   Datacompressie #1   |   PCA & t-SNE   |
-| 11    | 05/12 |   Datacompressie #2 |   Embeddings & vector similarity   |
+| 10    | 28/11 |   Structurele data-analyse   |   PCA, t-SNE & UMAP   |
+| 11    | 05/12 |   Voorbereiding examen |     |
 | 12    | 12/12 |   Presentaties   |      |
-| 13    | 19/12 |   Voorbereiding examen   |      |
+| 13    | 19/12 |   Optioneel   |      |
 
 ## Evaluatie
 |   |   |   |
