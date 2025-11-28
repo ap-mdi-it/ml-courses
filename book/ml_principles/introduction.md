@@ -74,10 +74,10 @@ We leggen de nadruk op praktische vaardigheden zoals het omgaan met datasets, he
 | 7     | 04/11 | Natuurlijke taal #2 | mini GPT |
 | Wapenstilstand
 | 8     | 18/11 | Beeldgeneratie | Nieuwe vlinders met een _diffusion_ model |
-| 9     | 25/11 | Actieplanning #1 | Mario-agent |
-| 10    | 02/12 | Actieplanning #2 | Mario-agent |
+| 9     | 25/11 | Actieplanning | Reinforcement Learning basis |
+| 10    | 02/12 | Voorbereiding examen #1 |  |
 | 11    | 09/12 | Presentaties |  |
-| 12    | 16/12 | Voorbereiding examen |  |
+| 12    | 16/12 | Voorbereiding examen #2 |  |
 | Kerstvakantie
 
 ## Evaluatie
