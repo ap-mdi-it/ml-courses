@@ -64,6 +64,8 @@ project:
             - title: Oefeningen
               children:
                 - file: book/ml_principles/labs/prep/exploratory.ipynb
+                - file: book/ml_principles/labs/prep/structured.ipynb
+                
         - file: book/ml_principles/glossary.md
     - title: ∑ Mathematical Foundations
       children:
