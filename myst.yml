@@ -120,6 +120,11 @@ project:
             - file: book/math_foundations/labs/probability-likelihood.ipynb
             - file: book/math_foundations/labs/probability-bayes.ipynb
             - file: book/math_foundations/labs/structure-tSNE.ipynb
+            - title: Oefeningen
+              children:
+                - file: book/math_foundations/labs/prep/linalg.ipynb
+                - file: book/math_foundations/labs/prep/linreg.ipynb
+                - file: book/math_foundations/labs/prep/backprop.ipynb
         - file: book/math_foundations/glossary.md
 site:
   options:
