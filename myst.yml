@@ -128,6 +128,7 @@ project:
                 - file: book/math_foundations/labs/prep/probability.ipynb
         - file: book/math_foundations/glossary.md
 site:
+  template: book-theme
   options:
     favicon: img/AP_favicon.ico
     logo: img/AP_logo_letters_rgb_sq.png
