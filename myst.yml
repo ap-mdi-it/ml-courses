@@ -125,6 +125,7 @@ project:
                 - file: book/math_foundations/labs/prep/linalg.ipynb
                 - file: book/math_foundations/labs/prep/linreg.ipynb
                 - file: book/math_foundations/labs/prep/backprop.ipynb
+                - file: book/math_foundations/labs/prep/probability.ipynb
         - file: book/math_foundations/glossary.md
 site:
   options:
