@@ -47,7 +47,12 @@ Je levert een (serie) werkende (!) notebook(s) af met daarin minimaal volgende s
 - Performantie analyse  
   
 Je geeft hierover een korte mondelinge presentatie tijdens de labo's van december. De presentatie wordt gevolgd door een korte vragensessie.
-
+  
+:::{important}
+- Een werkende notebook impliceert dat je code voorziet om de data op te halen; werk dus **niet met een lokale dataset** - zie labo's voor voorbeelden.
+- Vermeld je bronnen (data + analyses)!
+:::
+  
 :::{tip}
 Nuttige bronnen voor de keuze van een use-case:  
 - [Kaggle](https://www.kaggle.com/)  
