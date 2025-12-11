@@ -37,5 +37,4 @@ RUN npx --yes playwright@1.57.0 install-deps chromium
 RUN mkdir ~/.history/ && \
     echo 'HISTFILE=~/.history/.bash_history' >> ~/.bashrc && \
     echo 'bind "\"\e[A\": history-search-backward"' >> ~/.bashrc && \
-    echo 'bind "\"\e[B\": history-search-forward"' >> ~/.bashrc && \
-    echo 'eval "$(starship init bash)"' >> ~/.bashrc
+    echo 'bind "\"\e[B\": history-search-forward"' >> ~/.bashrc
