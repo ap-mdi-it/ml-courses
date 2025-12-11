@@ -13,6 +13,9 @@ reports/
 *.zip*
 data/
 
+# PDF exports
+_exports/
+
 # direnv
 .envrc
 

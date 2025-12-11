@@ -104,7 +104,7 @@ project:
         - title: Structurele analyse
           children:
             - file: book/math_foundations/struct/pca.ipynb
-            - file: book/math_foundations/struct/tSNE.ipynb
+            - file: book/math_foundations/struct/tsne.ipynb
         - title: Labo's
           children:
             - file: book/math_foundations/labs/python.ipynb
@@ -119,7 +119,7 @@ project:
             - file: book/math_foundations/labs/probability-testing.ipynb
             - file: book/math_foundations/labs/probability-likelihood.ipynb
             - file: book/math_foundations/labs/probability-bayes.ipynb
-            - file: book/math_foundations/labs/structure-tSNE.ipynb
+            - file: book/math_foundations/labs/structure-tsne.ipynb
             - title: Oefeningen
               children:
                 - file: book/math_foundations/labs/prep/linalg.ipynb

@@ -45,9 +45,13 @@ def generate_binary_tipping_data(
 
     Examples
     --------
-    >>> X, y, meta = generate_binary_tipping_data(n_customers=100)
-    >>> print(f"Generated {len(y)} samples with {meta['tip_rate']:.1%} tippers")
-    >>> print(f"True model: P(tip) = σ({meta['true_b1']:.2f} + {meta['true_b2']:.2f} × order)")
+    >>> X, y, meta = generate_binary_tipping_data(n_customers=100, seed=42)
+    >>> len(y)
+    100
+    >>> "tip_rate" in meta
+    True
+    >>> 0 <= meta["tip_rate"] <= 1
+    True
     """
     rng = np.random.default_rng(seed)
 
@@ -114,9 +118,13 @@ def generate_binary_tipping_dataframe(
 
     Examples
     --------
-    >>> df, meta = generate_binary_tipping_dataframe(n_customers=100)
-    >>> print(df.head())
-    >>> print(f"Tip rate: {meta['tip_rate']:.1%}")
+    >>> df, meta = generate_binary_tipping_dataframe(n_customers=100, seed=42)
+    >>> len(df)
+    100
+    >>> list(df.columns)
+    ['order_total', 'tipped', 'true_prob']
+    >>> bool(df["tipped"].isin([0, 1]).all())
+    True
     """
     X, y, metadata = generate_binary_tipping_data(n_customers, true_b1, true_b2, seed)
 

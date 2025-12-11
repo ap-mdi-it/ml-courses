@@ -7,6 +7,32 @@ Machine learing course materials
 ## Pages URL
 [https://ap-mdi-it.github.io/ml-courses](https://ap-mdi-it.github.io/ml-courses)
 
+## PDF Export
+
+Generate PDF versions of all course pages:
+
+```sh
+# Generate all PDFs (outputs to _exports/ directory)
+ml-courses-pdf
+
+# Test with single page first
+ml-courses-pdf --test
+
+# Custom output directory
+ml-courses-pdf --output-dir my-pdfs
+
+# Run as Python module
+python -m ml_courses.pdf
+```
+
+The PDF generator:
+- Parses `myst.yml` table of contents
+- Converts each page to PDF using Playwright/Chromium (avoids LaTeX issues with emojis, iframes)
+- Organizes PDFs in directory structure mirroring the TOC hierarchy
+- **Preserves TOC order** with numbered prefixes (01_, 02_, etc.)
+- **Handles duplicate filenames** by appending -1, -2 suffixes (matching myst's behavior)
+- Uses flat URL structure with underscores→hyphens (e.g., `exploratory_uber.ipynb` → `exploratory-uber`)
+
 ## Installing
 
 To install this package, run:
