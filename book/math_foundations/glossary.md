@@ -8,7 +8,7 @@
 - {ref}`kolom-vector <target-column-vector>`
 - {ref}`transpositie <target-transpose>`
 - {ref}`tensor <target-tensors>`
-
+ 
 ## [Element-gewijze operaties](linalg/basis_ops.ipynb)
 - {ref}`scalair optellen <target-scalar-addition>`
 - {ref}`scalaire vermenigvuldiging <target-scalar-multiplication>`
