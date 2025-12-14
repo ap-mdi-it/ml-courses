@@ -24,7 +24,9 @@ dependencies = [
     "matplotlib>=3.10.6",
     "opencv-python-headless>=4.12.0.88",
     "pandas>=2.3.2",
+    "playwright>=1.57.0",
     "plotly>=6.3.0",
+    "pyyaml>=6.0",
     "rich>=14.2.0",
     "scikit-learn>=1.7.1",
     "scipy>=1.15.3",
@@ -48,6 +50,9 @@ releasenotes = "https://github.com/ap-mdi-it/ml-courses/releases"
 documentation = "https://github.com/ap-mdi-it/ml-courses"
 issues = "https://github.com/ap-mdi-it/ml-courses/issues"
 
+[project.scripts]
+ml-courses-pdf = "ml_courses.pdf.__main__:main"
+
 [dependency-groups]  # https://docs.astral.sh/uv/concepts/projects/dependencies/#development-dependencies
 dev = [
   "coverage[toml] (>=7.6.10)",
@@ -62,6 +67,7 @@ dev = [
   "pytest-mock (>=3.14.0)",
   "pytest-xdist (>=3.6.1)",
   "ruff (>=0.9.2)",
+  "types-pyyaml (>=6.0.12)",
 ]
 
 [tool.coverage.report]  # https://coverage.readthedocs.io/en/latest/config.html#report

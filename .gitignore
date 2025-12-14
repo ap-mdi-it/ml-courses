@@ -13,6 +13,9 @@ reports/
 *.zip*
 data/
 
+# PDF exports
+_exports/
+
 # direnv
 .envrc
 
@@ -75,3 +78,7 @@ book/tmp/
 
 # notebook copies
 * copy.ipynb
+
+# Torch exports
+*.pt
+*.pth

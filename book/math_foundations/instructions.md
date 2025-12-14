@@ -37,6 +37,11 @@ Je levert een (serie) werkende (!) notebook(s) af met daarin minimaal volgende s
   
 Je geeft hierover een korte mondelinge presentatie tijdens de labo's van december. De presentatie wordt gevolgd door een korte vragensessie.
   
+:::{important}
+- Een werkende notebook impliceert dat je code voorziet om de data op te halen; werk dus **niet met een lokale dataset** - zie labo's voor voorbeelden.
+- Vermeld je bronnen (data + analyses)!
+:::
+  
 :::{tip}
 Stem deze opdracht af met je opdracht voor de _ML Principles_ cursus.
 :::

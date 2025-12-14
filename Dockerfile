@@ -30,9 +30,11 @@ RUN sudo apt-get update && sudo apt-get install -y curl && \
 # Install GraphViz
 RUN sudo apt-get update && sudo apt-get install -y graphviz
 
+# Install Playwright dependencies for Chromium
+RUN npx --yes playwright@1.57.0 install-deps chromium
+
 # Configure the non-root user's shell.
 RUN mkdir ~/.history/ && \
     echo 'HISTFILE=~/.history/.bash_history' >> ~/.bashrc && \
     echo 'bind "\"\e[A\": history-search-backward"' >> ~/.bashrc && \
-    echo 'bind "\"\e[B\": history-search-forward"' >> ~/.bashrc && \
-    echo 'eval "$(starship init bash)"' >> ~/.bashrc
+    echo 'bind "\"\e[B\": history-search-forward"' >> ~/.bashrc

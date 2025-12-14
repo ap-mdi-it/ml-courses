@@ -44,32 +44,32 @@
 ## [Matrix inverse](linalg/inverse.ipynb)
 - {ref}`matrix inverse <target-matrix-inverse>`
 
-## [Lineaire regressie - Introductie](lineaire_regressie/grid.ipynb)
+## [Lineaire regressie - Introductie](linear_regression/grid.ipynb)
 - {ref}`lineaire regressie <target-linear-regression>`
-- {ref}`sum of squared errors <target-sse>`
-- {ref}`mean squared errors <target-mse>`
+- _{ref}`sum of squared errors <target-sse>`_
+- _{ref}`mean squared errors <target-mse>`_
 - {ref}`standaardafwijking <target-standard-deviation>`
 - {ref}`standaardisatie <target-standardization>`
-- {ref}`grid search <target-grid-search>`
-- {ref}`r-squared <target-r2>`
+- _{ref}`grid search <target-grid-search>`_
+- _{ref}`r-squared <target-r2>`_
 
-## [SSE gradiënt](lineaire_regressie/gradient.ipynb)
+## [SSE gradiënt](linear_regression/gradient.ipynb)
 - {ref}`raak-/tangentlijn <target-tangent-line>`
 - {ref}`afgeleide <target-derivative>`
 - {ref}`partiële afgeleiden <target-partial-derivative>`
 - {ref}`gradiënt <target-gradient>`
 - {ref}`ordinary least squares (OLS) <target-ols>`
 
-## [Ordinary least squares](lineaire_regressie/ols.ipynb)
+## [Ordinary least squares](linear_regression/ols.ipynb)
 - {ref}`multicollineariteit <target-multicollinearity>`
 
-## [Gradient descent](lineaire_regressie/gradient_descent.ipynb)
+## [Gradient descent](linear_regression/gradient_descent.ipynb)
 - {ref}`gradient descent <target-gradient-descent>`
 - {ref}`learning rate <target-learning-rate>`
 - {ref}`lokale minima <target-local-minima>`
 - {ref}`stochastische gradient descent <target-stochastic-gradient-descent>`
 
-## [Generalized linear models](lineaire_regressie/glm.ipynb)
+## [Generalized linear models](linear_regression/glm.ipynb)
 - {ref}`generalized linear model <target-glm>`
 - {ref}`logistische regressie <target-logistic-regression>`
 - {ref}`logits <target-logits>`
