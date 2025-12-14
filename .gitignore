@@ -78,3 +78,7 @@ book/tmp/
 
 # notebook copies
 * copy.ipynb
+
+# Torch exports
+*.pt
+*.pth
