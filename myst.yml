@@ -65,6 +65,14 @@ project:
               children:
                 - file: book/ml_principles/labs/prep/exploratory.ipynb
                 - file: book/ml_principles/labs/prep/structured.ipynb
+                - title: Beeldherkenning
+                  children:
+                    - file: book/ml_principles/labs/prep/imgrec.ipynb
+                    - file: book/ml_principles/labs/prep/fashion_mnist.ipynb
+                - title: Taalverwerking
+                  children:
+                    - file: book/ml_principles/labs/prep/nlp.ipynb
+                    - file: book/ml_principles/labs/prep/sentiment_imdb.ipynb
                 
         - file: book/ml_principles/glossary.md
     - title: ∑ Mathematical Foundations
