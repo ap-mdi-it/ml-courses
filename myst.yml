@@ -48,16 +48,16 @@ project:
               children:
                 - file: book/ml_principles/labs/exploratory_uber_a.ipynb
                 - file: book/ml_principles/labs/exploratory_uber_b.ipynb
-            - title: ML voor gestructureerde data
+            - title: Gestructureerde data
               children:
                 - file: book/ml_principles/labs/structured_airbnb.ipynb
-            - title: ML voor beeldherkenning
+            - title: Beeldherkenning
               children:
                 - file: book/ml_principles/labs/imgrec_taco_explore.ipynb
                 - file: book/ml_principles/labs/imgrec_taco_train.ipynb
             - file: book/ml_principles/labs/nlp_nanogpt.ipynb
             - file: book/ml_principles/labs/imggen_butterfly.ipynb
-            - title: ML voor actiecontrole
+            - title: Actiecontrole
               children:
                 - file: book/ml_principles/labs/rl_basics.ipynb
                 - file: book/ml_principles/labs/rl_hugging_face_doom.ipynb
