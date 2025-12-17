@@ -43,7 +43,7 @@ jobs:
       - name: Install dependencies
         run: uv sync
       - name: Build HTML Assets
-        run: uv run myst build --html
+        run: uv run jupyter book build --html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
