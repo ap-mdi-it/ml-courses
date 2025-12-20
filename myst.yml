@@ -15,10 +15,10 @@ project:
       children:
       - title: Lectoren
         children:
-          - file: book/algemeen/lecturers/kevin_diependaele.md
-      - file: book/algemeen/preparation.ipynb
-      - file: book/algemeen/hello_world.ipynb
-      - file: book/algemeen/references.md
+          - file: book/general/lecturers/kevin_diependaele.md
+      - file: book/general/preparation.ipynb
+      - file: book/general/hello_world.ipynb
+      - file: book/general/references.md
     - title: ⚡ ML Principles
       children:
         - file: book/ml_principles/introduction.md
