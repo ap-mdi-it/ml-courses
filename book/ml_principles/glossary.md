@@ -28,8 +28,8 @@
 - {ref}`batch leeralgoritme <target-batch-algorithm>`
 - {ref}`ongebalanceerde trainingsdata <target-imbalance>`
 - {ref}`statistische bias <target-imbalance>`
-- {ref}`under sampling <target-under-sampling>`
-- {ref}`over sampling <target-over-sampling>`
+- _{ref}`under sampling <target-under-sampling>`_
+- _{ref}`over sampling <target-over-sampling>`_
 
 ## [Taken](basics/tasks.ipynb)
 - {ref}`klassificatie <target-classification>`
