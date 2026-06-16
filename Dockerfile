@@ -35,7 +35,7 @@ RUN sudo apt-get update && sudo apt-get install -y graphviz
 RUN npx --yes playwright@1.57.0 install-deps chromium
 
 # Copy dependency files and install Python packages
-COPY --chown=user:user pyproject.toml uv.lock /opt/project/
+COPY --chown=user:user pyproject.toml uv.lock README.md /opt/project/
 WORKDIR /opt/project
 RUN --mount=type=cache,id=uv-cache-$TARGETARCH,target=/home/user/.cache/uv,uid=1000,gid=1000 \
     uv sync --frozen --all-extras
