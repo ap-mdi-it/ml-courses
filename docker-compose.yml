@@ -2,9 +2,7 @@ services:
 
   devcontainer:
     image: ghcr.io/ap-mdi-it/ml-courses:latest
-    pull_policy: if_not_present
-    build:
-      target: dev
+    pull_policy: missing
     volumes:
       - ..:/workspaces
       - command-history-volume:/home/user/.history/

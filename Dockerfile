@@ -34,8 +34,20 @@ RUN sudo apt-get update && sudo apt-get install -y graphviz
 # Install Playwright dependencies for Chromium
 RUN npx --yes playwright@1.57.0 install-deps chromium
 
+# Copy dependency files and install Python packages
+COPY --chown=user:user pyproject.toml uv.lock /opt/project/
+WORKDIR /opt/project
+RUN --mount=type=cache,id=uv-cache-$TARGETARCH,target=/home/user/.cache/uv,uid=1000,gid=1000 \
+    uv sync --frozen --all-extras
+
+# Install Playwright browsers (Chromium)
+RUN /opt/venv/bin/playwright install chromium
+
 # Configure the non-root user's shell.
 RUN mkdir ~/.history/ && \
     echo 'HISTFILE=~/.history/.bash_history' >> ~/.bashrc && \
     echo 'bind "\"\e[A\": history-search-backward"' >> ~/.bashrc && \
     echo 'bind "\"\e[B\": history-search-forward"' >> ~/.bashrc
+
+# Set working directory back to workspace
+WORKDIR /workspaces
