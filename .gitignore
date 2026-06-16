@@ -79,3 +79,6 @@ book/tmp/
 # Torch exports
 *.pt
 *.pth
+
+# Claude
+.claude/

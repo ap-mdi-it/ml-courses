@@ -19,6 +19,45 @@ project:
       - file: book/general/preparation.ipynb
       - file: book/general/hello_world.ipynb
       - file: book/general/references.md
+    - title: 🐍 Python voor Machine Learning
+      children:
+        - file: book/python_for_ml/introduction.md
+        - title: Python basis
+          children:
+            - file: book/python_for_ml/python/01_datatypes.ipynb
+            - file: book/python_for_ml/python/02_controlflow.ipynb
+            - file: book/python_for_ml/python/03_functions.ipynb
+            - file: book/python_for_ml/python/04_classes.ipynb
+            - file: book/python_for_ml/python/05_typing.ipynb
+        - title: NumPy
+          children:
+            - file: book/python_for_ml/numpy/01_arrays.ipynb
+            - file: book/python_for_ml/numpy/02_indexing.ipynb
+            - file: book/python_for_ml/numpy/03_operations.ipynb
+        - title: Pandas
+          children:
+            - file: book/python_for_ml/pandas/01_dataframes.ipynb
+            - file: book/python_for_ml/pandas/02_selection.ipynb
+            - file: book/python_for_ml/pandas/03_cleaning.ipynb
+            - file: book/python_for_ml/pandas/04_groupby.ipynb
+        - title: Visualisatie
+          children:
+            - file: book/python_for_ml/visualisation/01_matplotlib.ipynb
+            - file: book/python_for_ml/visualisation/02_seaborn.ipynb
+            - file: book/python_for_ml/visualisation/03_plotly.ipynb
+        - title: Exploratieve data-analyse
+          children:
+            - file: book/python_for_ml/eda/01_univariate.ipynb
+            - file: book/python_for_ml/eda/02_bivariate.ipynb
+            - file: book/python_for_ml/eda/03_project.ipynb
+        - title: Scikit-learn
+          children:
+            - file: book/python_for_ml/sklearn/01_api.ipynb
+            - file: book/python_for_ml/sklearn/02_pipelines.ipynb
+        - title: PyTorch
+          children:
+            - file: book/python_for_ml/pytorch/01_tensors.ipynb
+            - file: book/python_for_ml/pytorch/02_autograd.ipynb
     - title: ⚡ ML Principles
       children:
         - file: book/ml_principles/introduction.md
