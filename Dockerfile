@@ -12,8 +12,9 @@ RUN git config --system --add safe.directory '*'
 
 # Create a non-root user and give it passwordless sudo access [1].
 # [1] https://code.visualstudio.com/remote/advancedcontainers/add-nonroot-user
-RUN --mount=type=cache,target=/var/cache/apt/ \
-    --mount=type=cache,target=/var/lib/apt/ \
+ARG TARGETARCH
+RUN --mount=type=cache,id=apt-cache-$TARGETARCH,target=/var/cache/apt/ \
+    --mount=type=cache,id=apt-lists-$TARGETARCH,target=/var/lib/apt/ \
     groupadd --gid 1000 user && \
     useradd --create-home --no-log-init --gid 1000 --uid 1000 --shell /usr/bin/bash user && \
     chown user:user /opt/ && \
