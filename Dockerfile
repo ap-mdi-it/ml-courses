@@ -38,7 +38,7 @@ RUN npx --yes playwright@1.57.0 install-deps chromium
 COPY --chown=user:user pyproject.toml uv.lock README.md /opt/project/
 WORKDIR /opt/project
 RUN --mount=type=cache,id=uv-cache-$TARGETARCH,target=/home/user/.cache/uv,uid=1000,gid=1000 \
-    uv sync --frozen --all-extras
+    uv sync --frozen --all-extras --group dev
 
 # Install Playwright browsers (Chromium)
 RUN /opt/venv/bin/playwright install chromium
