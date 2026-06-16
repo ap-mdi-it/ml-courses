@@ -5,7 +5,7 @@
     "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/",
     "overrideCommand": true,
     "remoteUser": "user",
-    "postStartCommand": "sudo chown -R user:user /opt/ && pre-commit install --install-hooks",
+    "postStartCommand": "sudo chown -R user:user /opt/ && command -v pre-commit >/dev/null 2>&1 && pre-commit install --install-hooks || true",
     "customizations": {
         "jetbrains": {
             "backend": "PyCharm",
