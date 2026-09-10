@@ -51,6 +51,7 @@ Je geeft hierover een korte mondelinge presentatie tijdens de labo's van decembe
 :::{important}
 - Een werkende notebook impliceert dat je code voorziet om de data op te halen; werk dus **niet met een lokale dataset** - zie labo's voor voorbeelden.
 - Vermeld je bronnen (data + analyses)!
+- Het gebruik van AI-tools tijdens de voorbereiding is niet verboden, maar er schuilt hierin een groot gevaar dat je daardoor niet in staat bent om de materie in je eigen woorden uit te leggen!
 :::
   
 :::{tip}
@@ -63,9 +64,9 @@ Nuttige bronnen voor de keuze van een use-case:
 :::
   
 :::{important}
-Je maakt eerst een keuze van een probleem en bijhorende dataset en toets je dit ten laatste in het labo van **30 september 2025** af met de lector.
+Je maakt eerst een keuze van een probleem en bijhorende dataset en toets je dit ten laatste in het labo van **8 oktober 2026** af met de lector.
 Daarna ga je zelfstandig aan de slag. Er is tijdens de labo's ruimte voor specifieke vragen of problemen.
-Deadline voor het indienen van de opdracht: **1 december 2025**
+Deadline voor het indienen van de opdracht: **1 december 2026**
 :::
 
 Alle verdere informatie/verduidelijking zal hier in de loop van het semester worden aangevuld.

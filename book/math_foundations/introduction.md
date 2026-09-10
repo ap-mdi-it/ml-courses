@@ -46,20 +46,19 @@ Optimaliseert functies die vaak gebruikt worden bij machine learning analytisch 
 ## Programma
 | Week  | Datum | Onderdeel | Labo |
 |-------|-------|----------|----------|
-| 1     | 19/09 |   Lineaire algebra #1   |   Vectoren, matrices & tensors   |
-| 2     | 26/09 |   Lineaire algebra #2   |   Dot products, speciale tensors & stelsels van lineaire vergelijkingen   |
-| 3     | 03/10 |   Gradients #1    |   OLS & gradient descent voor lineaire Regressie   |
-| 4     | 10/10 |   Gradients #2   |   Gradient descent voor logistische regressie   |
-| 5     | 17/10 |   Gradients #3   |   Backpropagation   |
-| 6     | 24/10 |   Gradients #4   |   Backpropagation (Praktijk)   |
+| 1     | 22/09 |   Lineaire algebra #1   |   Vectoren, matrices & tensors   |
+| 2     | 29/09 |   Lineaire algebra #2   |   Dot products, speciale tensors & stelsels van lineaire vergelijkingen   |
+| 3     | 06/10 |   Gradients #1    |   OLS & gradient descent voor lineaire Regressie   |
+| 4     | 13/10 |   Gradients #2   |   Gradient descent voor logistische regressie   |
+| 5     | 20/10 |   Gradients #3   |   Backpropagation   |
+| 6     | 27/10 |   Gradients #4   |   Backpropagation (Praktijk)   |
 | Herfstvakantie
-| 7     | 07/11 |   Probabiliteit #1   |   Kansvariabelen en -verdelingen   |
-| 8     | 14/11 |   Probabiliteit #2   |   Hypothese testen en Likelihood   |
-| 9     | 21/11 |   Probabiliteit #3   |   Bayesiaanse aanpak van lineaire regressie   |
-| 10    | 28/11 |   Structurele data-analyse   |   PCA, t-SNE & UMAP   |
-| 11    | 05/12 |   Voorbereiding examen |     |
-| 12    | 12/12 |   Presentaties   |      |
-| 13    | 19/12 |   Optioneel   |      |
+| 7     | 10/11 |   Probabiliteit #1   |   Kansvariabelen en -verdelingen   |
+| 8     | 17/11 |   Probabiliteit #2   |   Hypothese testen en Likelihood   |
+| 9     | 24/11 |   Probabiliteit #3   |   Bayesiaanse aanpak van lineaire regressie   |
+| 10    | 01/12 |   Structurele data-analyse   |   PCA, t-SNE & UMAP   |
+| 11    | 08/12 |   Voorbereiding examen |     |
+| 12    | 15/12 |   Presentaties   |      |
 
 ## Evaluatie
 |   |   |   |
