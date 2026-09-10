@@ -35,11 +35,12 @@ Je levert een (serie) werkende (!) notebook(s) af met daarin minimaal volgende s
 - Wiskundige uiteenzetting
 - Uitgewerkt voorbeeld met een publieke/gesimuleerde dataset
   
-Je geeft hierover een korte mondelinge presentatie tijdens de labo's van december. De presentatie wordt gevolgd door een korte vragensessie.
+Je geeft hierover een korte mondelinge presentatie tijdens de labo's van december. De presentatie wordt gevolgd door een korte vragensessie. **Hierin wordt gepeild naar je eigen begrip van de materie. Dit betekent dat je de wiskundige inhoud in je eigen woorden moet kunnen uitleggen.**
   
 :::{important}
 - Een werkende notebook impliceert dat je code voorziet om de data op te halen; werk dus **niet met een lokale dataset** - zie labo's voor voorbeelden.
 - Vermeld je bronnen (data + analyses)!
+- Het gebruik van AI-tools tijdens de voorbereiding is niet verboden, maar er schuilt hierin een groot gevaar dat je daardoor niet in staat bent om de materie in je eigen woorden uit te leggen!
 :::
   
 :::{tip}
@@ -47,9 +48,9 @@ Stem deze opdracht af met je opdracht voor de _ML Principles_ cursus.
 :::
 
 :::{important}
-Je maakt eerst een keuze van een algoritme en toetst dit ten laatste in het labo van **3 oktober 2025** af met de lector.
+Je maakt eerst een keuze van een algoritme en toetst dit ten laatste in het labo van **6 oktober 2026** af met de lector.
 Daarna ga je zelfstandig aan de slag. Er is tijdens de labo's ruimte voor specifieke vragen of problemen.
-Deadline voor het indienen van de opdracht: **1 december 2025**
+Deadline voor het indienen van de opdracht: **1 december 2026**
 :::
 
 Alle verdere informatie/verduidelijking zal hier in de loop van het semester worden aangevuld.

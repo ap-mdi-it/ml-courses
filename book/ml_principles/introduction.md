@@ -64,20 +64,19 @@ We leggen de nadruk op praktische vaardigheden zoals het omgaan met datasets, he
 ## Programma
 | Week  | Datum | Onderdeel | Labo |
 |-------|-------|-----------|----------|
-| 1     | 16/09 | Basisprincipes #1 | Setup |
-| 2     | 23/09 | Basisprincipes #2 | Uber: Data-Exploratie met Pandas en Plotly |
-| 3     | 30/09 | Gestructureerde data  | Airbnb: prijsvoorspellingen met XGBoost |
-| 4     | 07/10 | Beeldanalyse #1 | TACO: Zwerfvuildetectie |
-| 5     | 14/10 | Beeldanalyse #2 | TACO: Zwerfvuildetectie |
-| 6     | 21/10 | Natuurlijke taal #1 | mini GPT |
+| 1     | 24/09 | Basisprincipes #1 | Setup |
+| 2     | 01/10 | Basisprincipes #2 | Uber: Data-Exploratie met Pandas en Plotly |
+| 3     | 08/10 | Gestructureerde data  | Airbnb: prijsvoorspellingen met XGBoost |
+| 4     | 15/10 | Beeldanalyse #1 | TACO: Zwerfvuildetectie |
+| 5     | 22/10 | Beeldanalyse #2 | TACO: Zwerfvuildetectie |
+| 6     | 29/10 | Natuurlijke taal #1 | mini GPT |
 | Herfstvakantie
-| 7     | 04/11 | Natuurlijke taal #2 | mini GPT |
-| Wapenstilstand
-| 8     | 18/11 | Beeldgeneratie | Nieuwe vlinders met een _diffusion_ model |
-| 9     | 25/11 | Actieplanning | Reinforcement Learning basis |
-| 10    | 02/12 | Voorbereiding examen #1 |  |
-| 11    | 09/12 | Presentaties |  |
-| 12    | 16/12 | Voorbereiding examen #2 |  |
+| 7     | 12/11 | Natuurlijke taal #2 | mini GPT |
+| 8     | 19/11 | Beeldgeneratie | Nieuwe vlinders met een _diffusion_ model |
+| 9     | 26/11 | Actieplanning | Reinforcement Learning basis |
+| 10    | 03/12 | Voorbereiding examen #1 |  |
+| 11    | 10/12 | Presentaties |  |
+| 12    | 17/12 | Voorbereiding examen #2 |  |
 | Kerstvakantie
 
 ## Evaluatie
