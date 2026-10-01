@@ -154,19 +154,19 @@ project:
             - file: book/math_foundations/struct/tsne.ipynb
         - title: Labo's
           children:
-            - file: book/math_foundations/labs/python.ipynb
-            - file: book/math_foundations/labs/numpy.ipynb
-            - file: book/math_foundations/labs/linalg.ipynb
-            - file: book/math_foundations/labs/linreg.ipynb
-            - file: book/math_foundations/labs/glm.ipynb
-            - file: book/math_foundations/labs/backprop.ipynb
-            - file: book/math_foundations/labs/probability-basics.ipynb
-            - file: book/math_foundations/labs/probability-joint.ipynb
-            - file: book/math_foundations/labs/probability-moments.ipynb
-            - file: book/math_foundations/labs/probability-testing.ipynb
-            - file: book/math_foundations/labs/probability-likelihood.ipynb
-            - file: book/math_foundations/labs/probability-bayes.ipynb
-            - file: book/math_foundations/labs/structure-tsne.ipynb
+            - file: book/math_foundations/labs/solutions/python.ipynb
+            - file: book/math_foundations/labs/solutions/numpy.ipynb
+            - file: book/math_foundations/labs/solutions/linalg.ipynb
+            - file: book/math_foundations/labs/solutions/linreg.ipynb
+            - file: book/math_foundations/labs/solutions/glm.ipynb
+            - file: book/math_foundations/labs/solutions/backprop.ipynb
+            - file: book/math_foundations/labs/solutions/probability-basics.ipynb
+            - file: book/math_foundations/labs/solutions/probability-joint.ipynb
+            - file: book/math_foundations/labs/solutions/probability-moments.ipynb
+            - file: book/math_foundations/labs/solutions/probability-testing.ipynb
+            - file: book/math_foundations/labs/solutions/probability-likelihood.ipynb
+            - file: book/math_foundations/labs/solutions/probability-bayes.ipynb
+            - file: book/math_foundations/labs/solutions/structure-tsne.ipynb
             - title: Oefeningen
               children:
                 - file: book/math_foundations/labs/prep/linalg.ipynb
