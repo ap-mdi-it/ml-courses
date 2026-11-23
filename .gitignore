@@ -81,4 +81,4 @@ book/tmp/
 *.pth
 
 # Claude
-.claude/
+CLAUDE.md
