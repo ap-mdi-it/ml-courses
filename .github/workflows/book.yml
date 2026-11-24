@@ -51,9 +51,9 @@ jobs:
           # The theme's local render servers are reached via 127.0.0.1; make `localhost` resolve to IPv4.
           NODE_OPTIONS: --dns-result-order=ipv4first
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v5
+        uses: actions/upload-pages-artifact@v4
         with:
           path: './_build/html'
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v5
+        uses: actions/deploy-pages@v4
