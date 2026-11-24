@@ -26,17 +26,19 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    # A normal build takes ~2 minutes; fail fast instead of blocking deploys for 6 hours.
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v7
       - name: Setup Pages
         uses: actions/configure-pages@v6
       - uses: actions/setup-node@v7
         with:
-          node-version: 18.x
+          node-version: 26.x
       - name: Install UV
         uses: astral-sh/setup-uv@v7
         with:
-          version: "0.7.19"
+          version: "0.9.30"
       - name: "Set up Python"
         uses: actions/setup-python@v7
         with:
@@ -45,6 +47,9 @@ jobs:
         run: uv sync
       - name: Build HTML Assets
         run: uv run jupyter book build --html
+        env:
+          # The theme's local render servers are reached via 127.0.0.1; make `localhost` resolve to IPv4.
+          NODE_OPTIONS: --dns-result-order=ipv4first
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:
